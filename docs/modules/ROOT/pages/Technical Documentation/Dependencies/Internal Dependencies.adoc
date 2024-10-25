@@ -186,6 +186,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>0.6.4</version>
 </dependency>
 ----
+[[hazelcast-bootstrap]]
+==== *hazelcast-bootstrap*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.core.payara-modules</groupId>
+    <artifactId>hazelcast-bootstrap</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[fish.payara.server.internal.batch.glassfish-batch-connector]]
 ==== *fish.payara.server.internal.batch.glassfish-batch-connector*
 **Version**: 6.1.0
@@ -195,6 +207,18 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>batch connector for glassfish</groupId>
     <artifactId>fish.payara.server.internal.batch.glassfish-batch-connector</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.core.payara-modules.hazelcast-bootstrap]]
+==== *fish.payara.server.core.payara-modules.hazelcast-bootstrap*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>payara hazelcast bootstrap</groupId>
+    <artifactId>fish.payara.server.core.payara-modules.hazelcast-bootstrap</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -246,30 +270,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[hazelcast-bootstrap]]
-==== *hazelcast-bootstrap*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.core.payara-modules</groupId>
-    <artifactId>hazelcast-bootstrap</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.core.payara-modules.hazelcast-bootstrap]]
-==== *fish.payara.server.core.payara-modules.hazelcast-bootstrap*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>payara hazelcast bootstrap</groupId>
-    <artifactId>fish.payara.server.core.payara-modules.hazelcast-bootstrap</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[fish.payara.server.internal.persistence.common]]
 ==== *fish.payara.server.internal.persistence.common*
 **Version**: 6.1.0
@@ -279,138 +279,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>common persistence code between jpa and cmp</groupId>
     <artifactId>fish.payara.server.internal.persistence.common</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.extensions.notifiers.email-notifier-core]]
-==== *fish.payara.extensions.notifiers.email-notifier-core*
-**Version**: 2.0.0.enterprise
-
-[source,xml]
-----
-<dependency>
-    <groupId>email notifier implementation</groupId>
-    <artifactId>fish.payara.extensions.notifiers.email-notifier-core</artifactId>
-    <version>2.0.0.enterprise</version>
-</dependency>
-----
-[[hk2-runlevel]]
-==== *hk2-runlevel*
-**Version**: 3.0.1.payara-p3
-
-[source,xml]
-----
-<dependency>
-    <groupId>org.glassfish.hk2</groupId>
-    <artifactId>hk2-runlevel</artifactId>
-    <version>3.0.1.payara-p3</version>
-</dependency>
-----
-[[jakarta.enterprise.cdi-api]]
-==== *jakarta.enterprise.cdi-api*
-**Version**: 4.0.1
-
-[source,xml]
-----
-<dependency>
-    <groupId>cdi apis</groupId>
-    <artifactId>jakarta.enterprise.cdi-api</artifactId>
-    <version>4.0.1</version>
-</dependency>
-----
-[[org.glassfish.hk2.runlevel]]
-==== *org.glassfish.hk2.runlevel*
-**Version**: 3.0.1.payara-p3
-
-[source,xml]
-----
-<dependency>
-    <groupId>run level service</groupId>
-    <artifactId>org.glassfish.hk2.runlevel</artifactId>
-    <version>3.0.1.payara-p3</version>
-</dependency>
-----
-[[glassfish-naming]]
-==== *glassfish-naming*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.core.common</groupId>
-    <artifactId>glassfish-naming</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[web-glue]]
-==== *web-glue*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.core.web</groupId>
-    <artifactId>web-glue</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.core.common.glassfish-naming]]
-==== *fish.payara.server.core.common.glassfish-naming*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>glassfish naming</groupId>
-    <artifactId>fish.payara.server.core.common.glassfish-naming</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.payara-appserver-modules.jaspic-servlet-utils]]
-==== *fish.payara.server.internal.payara-appserver-modules.jaspic-servlet-utils*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>payara jaspic servlet utilities</groupId>
-    <artifactId>fish.payara.server.internal.payara-appserver-modules.jaspic-servlet-utils</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.payara-modules.asadmin-audit]]
-==== *fish.payara.server.internal.payara-modules.asadmin-audit*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>payara asadmin auditor</groupId>
-    <artifactId>fish.payara.server.internal.payara-modules.asadmin-audit</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[jakarta.servlet-api]]
-==== *jakarta.servlet-api*
-**Version**: 6.0.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>jakarta servlet</groupId>
-    <artifactId>jakarta.servlet-api</artifactId>
-    <version>6.0.0</version>
-</dependency>
-----
-[[console-corba-plugin]]
-==== *console-corba-plugin*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.internal.admingui</groupId>
-    <artifactId>console-corba-plugin</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -450,6 +318,150 @@ This section details all dependencies related to internal modules, extensions, p
     <version>9.25.0</version>
 </dependency>
 ----
+[[fish.payara.extensions.notifiers.email-notifier-core]]
+==== *fish.payara.extensions.notifiers.email-notifier-core*
+**Version**: 2.0.0.enterprise
+
+[source,xml]
+----
+<dependency>
+    <groupId>email notifier implementation</groupId>
+    <artifactId>fish.payara.extensions.notifiers.email-notifier-core</artifactId>
+    <version>2.0.0.enterprise</version>
+</dependency>
+----
+[[hk2-runlevel]]
+==== *hk2-runlevel*
+**Version**: 3.0.1.payara-p3
+
+[source,xml]
+----
+<dependency>
+    <groupId>org.glassfish.hk2</groupId>
+    <artifactId>hk2-runlevel</artifactId>
+    <version>3.0.1.payara-p3</version>
+</dependency>
+----
+[[org.glassfish.hk2.runlevel]]
+==== *org.glassfish.hk2.runlevel*
+**Version**: 3.0.1.payara-p3
+
+[source,xml]
+----
+<dependency>
+    <groupId>run level service</groupId>
+    <artifactId>org.glassfish.hk2.runlevel</artifactId>
+    <version>3.0.1.payara-p3</version>
+</dependency>
+----
+[[web-glue]]
+==== *web-glue*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.core.web</groupId>
+    <artifactId>web-glue</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.core.web.glue]]
+==== *fish.payara.server.core.web.glue*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>web container glue code</groupId>
+    <artifactId>fish.payara.server.core.web.glue</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[glassfish-naming]]
+==== *glassfish-naming*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.core.common</groupId>
+    <artifactId>glassfish-naming</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[jakarta.enterprise.cdi-api]]
+==== *jakarta.enterprise.cdi-api*
+**Version**: 4.0.1
+
+[source,xml]
+----
+<dependency>
+    <groupId>cdi apis</groupId>
+    <artifactId>jakarta.enterprise.cdi-api</artifactId>
+    <version>4.0.1</version>
+</dependency>
+----
+[[fish.payara.server.core.common.glassfish-naming]]
+==== *fish.payara.server.core.common.glassfish-naming*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>glassfish naming</groupId>
+    <artifactId>fish.payara.server.core.common.glassfish-naming</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.internal.payara-modules.asadmin-audit]]
+==== *fish.payara.server.internal.payara-modules.asadmin-audit*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>payara asadmin auditor</groupId>
+    <artifactId>fish.payara.server.internal.payara-modules.asadmin-audit</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.internal.payara-appserver-modules.jaspic-servlet-utils]]
+==== *fish.payara.server.internal.payara-appserver-modules.jaspic-servlet-utils*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>payara jaspic servlet utilities</groupId>
+    <artifactId>fish.payara.server.internal.payara-appserver-modules.jaspic-servlet-utils</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[console-corba-plugin]]
+==== *console-corba-plugin*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.internal.admingui</groupId>
+    <artifactId>console-corba-plugin</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[jakarta.servlet-api]]
+==== *jakarta.servlet-api*
+**Version**: 6.0.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>jakarta servlet</groupId>
+    <artifactId>jakarta.servlet-api</artifactId>
+    <version>6.0.0</version>
+</dependency>
+----
 [[fish.payara.server.internal.admingui.console-corba-plugin]]
 ==== *fish.payara.server.internal.admingui.console-corba-plugin*
 **Version**: 6.1.0
@@ -474,18 +486,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.core.common.glassfish-ee-api]]
-==== *fish.payara.server.core.common.glassfish-ee-api*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>java ee dependent public apis of glassfish</groupId>
-    <artifactId>fish.payara.server.core.common.glassfish-ee-api</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[class-model]]
 ==== *class-model*
 **Version**: 3.0.1.payara-p3
@@ -498,16 +498,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.0.1.payara-p3</version>
 </dependency>
 ----
-[[fish.payara.server.core.web.glue]]
-==== *fish.payara.server.core.web.glue*
-**Version**: 6.1.0
+[[org.glassfish.hk2.class-model]]
+==== *org.glassfish.hk2.class-model*
+**Version**: 3.0.1.payara-p3
 
 [source,xml]
 ----
 <dependency>
-    <groupId>web container glue code</groupId>
-    <artifactId>fish.payara.server.core.web.glue</artifactId>
-    <version>6.1.0</version>
+    <groupId>class model for hk2</groupId>
+    <artifactId>org.glassfish.hk2.class-model</artifactId>
+    <version>3.0.1.payara-p3</version>
 </dependency>
 ----
 [[fish.payara.server.internal.batch.glassfish-batch-commands]]
@@ -522,16 +522,28 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.internal.ejb.ejb-full-container]]
-==== *fish.payara.server.internal.ejb.ejb-full-container*
+[[fish.payara.server.core.common.glassfish-ee-api]]
+==== *fish.payara.server.core.common.glassfish-ee-api*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>full ejb container add-ons</groupId>
-    <artifactId>fish.payara.server.internal.ejb.ejb-full-container</artifactId>
+    <groupId>java ee dependent public apis of glassfish</groupId>
+    <artifactId>fish.payara.server.core.common.glassfish-ee-api</artifactId>
     <version>6.1.0</version>
+</dependency>
+----
+[[org.glassfish.jersey.media.]]
+==== *org.glassfish.jersey.media.*
+**Version**: 3.1.0.payara-p1
+
+[source,xml]
+----
+<dependency>
+    <groupId>jersey-media-multipart</groupId>
+    <artifactId>org.glassfish.jersey.media.</artifactId>
+    <version>3.1.0.payara-p1</version>
 </dependency>
 ----
 [[ha-file-store]]
@@ -558,30 +570,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[org.glassfish.hk2.class-model]]
-==== *org.glassfish.hk2.class-model*
-**Version**: 3.0.1.payara-p3
-
-[source,xml]
-----
-<dependency>
-    <groupId>class model for hk2</groupId>
-    <artifactId>org.glassfish.hk2.class-model</artifactId>
-    <version>3.0.1.payara-p3</version>
-</dependency>
-----
-[[org.glassfish.jersey.media.]]
-==== *org.glassfish.jersey.media.*
-**Version**: 3.1.0.payara-p1
-
-[source,xml]
-----
-<dependency>
-    <groupId>jersey-media-multipart</groupId>
-    <artifactId>org.glassfish.jersey.media.</artifactId>
-    <version>3.1.0.payara-p1</version>
-</dependency>
-----
 [[fish.payara.transformer.payara]]
 ==== *fish.payara.transformer.payara*
 **Version**: 0.2.12
@@ -592,6 +580,30 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>fish.payara.transformer</groupId>
     <artifactId>fish.payara.transformer.payara</artifactId>
     <version>0.2.12</version>
+</dependency>
+----
+[[fish.payara.server.internal.ejb.ejb-full-container]]
+==== *fish.payara.server.internal.ejb.ejb-full-container*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>full ejb container add-ons</groupId>
+    <artifactId>fish.payara.server.internal.ejb.ejb-full-container</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[org.eclipse.persistence.moxy]]
+==== *org.eclipse.persistence.moxy*
+**Version**: 4.0.1.payara-p1
+
+[source,xml]
+----
+<dependency>
+    <groupId>eclipselink moxy</groupId>
+    <artifactId>org.eclipse.persistence.moxy</artifactId>
+    <version>4.0.1.payara-p1</version>
 </dependency>
 ----
 [[org.glassfish.expressly]]
@@ -615,18 +627,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>fish.payara.server.core.orb</groupId>
     <artifactId>orb-enabler</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.core.orb.enabler]]
-==== *fish.payara.server.core.orb.enabler*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>glassfish orb enabler implementation</groupId>
-    <artifactId>fish.payara.server.core.orb.enabler</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -654,6 +654,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[fish.payara.transformer.payara]]
+==== *fish.payara.transformer.payara*
+**Version**: 0.2.12
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.transformer:fish.payara.transformer.payara</groupId>
+    <artifactId>fish.payara.transformer.payara</artifactId>
+    <version>0.2.12</version>
+</dependency>
+----
 [[org.jxmpp.jid]]
 ==== *org.jxmpp.jid*
 **Version**: 0.6.4
@@ -678,6 +690,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[org.igniterealtime.smack.tcp]]
+==== *org.igniterealtime.smack.tcp*
+**Version**: 4.3.4
+
+[source,xml]
+----
+<dependency>
+    <groupId>smack-tcp</groupId>
+    <artifactId>org.igniterealtime.smack.tcp</artifactId>
+    <version>4.3.4</version>
+</dependency>
+----
 [[fish.payara.server.internal.osgi-platforms.osgi-container]]
 ==== *fish.payara.server.internal.osgi-platforms.osgi-container*
 **Version**: 6.1.0
@@ -688,30 +712,6 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>osgi container</groupId>
     <artifactId>fish.payara.server.internal.osgi-platforms.osgi-container</artifactId>
     <version>6.1.0</version>
-</dependency>
-----
-[[org.eclipse.persistence.moxy]]
-==== *org.eclipse.persistence.moxy*
-**Version**: 4.0.1.payara-p1
-
-[source,xml]
-----
-<dependency>
-    <groupId>eclipselink moxy</groupId>
-    <artifactId>org.eclipse.persistence.moxy</artifactId>
-    <version>4.0.1.payara-p1</version>
-</dependency>
-----
-[[fish.payara.transformer.payara]]
-==== *fish.payara.transformer.payara*
-**Version**: 0.2.12
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.transformer:fish.payara.transformer.payara</groupId>
-    <artifactId>fish.payara.transformer.payara</artifactId>
-    <version>0.2.12</version>
 </dependency>
 ----
 [[rest-monitoring-service]]
@@ -726,6 +726,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[fish.payara.server.internal.connectors.inbound-runtime]]
+==== *fish.payara.server.internal.connectors.inbound-runtime*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>connectors inbound support</groupId>
+    <artifactId>fish.payara.server.internal.connectors.inbound-runtime</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[fish.payara.server.internal.payara-appserver-modules.rest-monitoring-service]]
 ==== *fish.payara.server.internal.payara-appserver-modules.rest-monitoring-service*
 **Version**: 6.1.0
@@ -736,6 +748,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>rest monitoring service</groupId>
     <artifactId>fish.payara.server.internal.payara-appserver-modules.rest-monitoring-service</artifactId>
     <version>6.1.0</version>
+</dependency>
+----
+[[monitoring-console-api]]
+==== *monitoring-console-api*
+**Version**: 2.0.1
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.monitoring-console</groupId>
+    <artifactId>monitoring-console-api</artifactId>
+    <version>2.0.1</version>
 </dependency>
 ----
 [[mimepull]]
@@ -762,18 +786,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>1.10.0</version>
 </dependency>
 ----
-[[monitoring-console-api]]
-==== *monitoring-console-api*
-**Version**: 2.0.1
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.monitoring-console</groupId>
-    <artifactId>monitoring-console-api</artifactId>
-    <version>2.0.1</version>
-</dependency>
-----
 [[fish.payara.monitoring-console.api]]
 ==== *fish.payara.monitoring-console.api*
 **Version**: 2.0.1
@@ -784,6 +796,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>monitoring-console-api</groupId>
     <artifactId>fish.payara.monitoring-console.api</artifactId>
     <version>2.0.1</version>
+</dependency>
+----
+[[org.glassfish.jersey.media.]]
+==== *org.glassfish.jersey.media.*
+**Version**: 3.1.0.payara-p1
+
+[source,xml]
+----
+<dependency>
+    <groupId>jersey-media-json-jackson</groupId>
+    <artifactId>org.glassfish.jersey.media.</artifactId>
+    <version>3.1.0.payara-p1</version>
 </dependency>
 ----
 [[datadog-notifier-console-plugin]]
@@ -810,42 +834,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.0.0.enterprise</version>
 </dependency>
 ----
-[[fish.payara.server.internal.connectors.inbound-runtime]]
-==== *fish.payara.server.internal.connectors.inbound-runtime*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>connectors inbound support</groupId>
-    <artifactId>fish.payara.server.internal.connectors.inbound-runtime</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[org.igniterealtime.smack.tcp]]
-==== *org.igniterealtime.smack.tcp*
-**Version**: 4.3.4
-
-[source,xml]
-----
-<dependency>
-    <groupId>smack-tcp</groupId>
-    <artifactId>org.igniterealtime.smack.tcp</artifactId>
-    <version>4.3.4</version>
-</dependency>
-----
-[[org.glassfish.jersey.media.]]
-==== *org.glassfish.jersey.media.*
-**Version**: 3.1.0.payara-p1
-
-[source,xml]
-----
-<dependency>
-    <groupId>jersey-media-json-jackson</groupId>
-    <artifactId>org.glassfish.jersey.media.</artifactId>
-    <version>3.1.0.payara-p1</version>
-</dependency>
-----
 [[jakarta.activation-api]]
 ==== *jakarta.activation-api*
 **Version**: 2.1.0
@@ -870,16 +858,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.1.0</version>
 </dependency>
 ----
-[[org.eclipse.persistence.jpa.modelgen.processor]]
-==== *org.eclipse.persistence.jpa.modelgen.processor*
-**Version**: 4.0.1.payara-p1
+[[fish.payara.server.core.orb.enabler]]
+==== *fish.payara.server.core.orb.enabler*
+**Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>eclipselink jpa model generator</groupId>
-    <artifactId>org.eclipse.persistence.jpa.modelgen.processor</artifactId>
-    <version>4.0.1.payara-p1</version>
+    <groupId>glassfish orb enabler implementation</groupId>
+    <artifactId>fish.payara.server.core.orb.enabler</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[jakarta.security.auth.message-api]]
@@ -894,16 +882,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.0.0</version>
 </dependency>
 ----
-[[com.fasterxml.jackson.core.]]
-==== *com.fasterxml.jackson.core.*
-**Version**: 2.14.1
+[[org.eclipse.persistence.asm]]
+==== *org.eclipse.persistence.asm*
+**Version**: 9.4.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>jackson-databind</groupId>
-    <artifactId>com.fasterxml.jackson.core.</artifactId>
-    <version>2.14.1</version>
+    <groupId>eclipselink asm</groupId>
+    <artifactId>org.eclipse.persistence.asm</artifactId>
+    <version>9.4.0</version>
 </dependency>
 ----
 [[fish.payara.server.internal.batch.payara-jbatch]]
@@ -916,6 +904,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>ibm jbatch combined</groupId>
     <artifactId>fish.payara.server.internal.batch.payara-jbatch</artifactId>
     <version>6.1.0</version>
+</dependency>
+----
+[[com.fasterxml.jackson.core.]]
+==== *com.fasterxml.jackson.core.*
+**Version**: 2.14.1
+
+[source,xml]
+----
+<dependency>
+    <groupId>jackson-databind</groupId>
+    <artifactId>com.fasterxml.jackson.core.</artifactId>
+    <version>2.14.1</version>
 </dependency>
 ----
 [[payara-executor-service]]
@@ -1014,16 +1014,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>1.1.4.c</version>
 </dependency>
 ----
-[[org.eclipse.persistence.asm]]
-==== *org.eclipse.persistence.asm*
-**Version**: 9.4.0
+[[org.eclipse.persistence.jpa.modelgen.processor]]
+==== *org.eclipse.persistence.jpa.modelgen.processor*
+**Version**: 4.0.1.payara-p1
 
 [source,xml]
 ----
 <dependency>
-    <groupId>eclipselink asm</groupId>
-    <artifactId>org.eclipse.persistence.asm</artifactId>
-    <version>9.4.0</version>
+    <groupId>eclipselink jpa model generator</groupId>
+    <artifactId>org.eclipse.persistence.jpa.modelgen.processor</artifactId>
+    <version>4.0.1.payara-p1</version>
 </dependency>
 ----
 [[monitoring-core]]
@@ -1122,28 +1122,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[microprofile-telemetry]]
-==== *microprofile-telemetry*
-**Version**: 6.1.0
+[[org.eclipse.persistence.jpa.jpql]]
+==== *org.eclipse.persistence.jpa.jpql*
+**Version**: 4.0.1.payara-p1
 
 [source,xml]
 ----
 <dependency>
-    <groupId>fish.payara.server.internal.payara-appserver-modules</groupId>
-    <artifactId>microprofile-telemetry</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.persistence.cmp.support-sqlstore]]
-==== *fish.payara.server.internal.persistence.cmp.support-sqlstore*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>support-sqlstore module for cmp</groupId>
-    <artifactId>fish.payara.server.internal.persistence.cmp.support-sqlstore</artifactId>
-    <version>6.1.0</version>
+    <groupId>eclipselink hermes parser</groupId>
+    <artifactId>org.eclipse.persistence.jpa.jpql</artifactId>
+    <version>4.0.1.payara-p1</version>
 </dependency>
 ----
 [[dataprovider]]
@@ -1158,28 +1146,40 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.internal.admingui.dataprovider]]
-==== *fish.payara.server.internal.admingui.dataprovider*
+[[org.glassfish.web.jakarta.servlet.jsp.jstl]]
+==== *org.glassfish.web.jakarta.servlet.jsp.jstl*
+**Version**: 3.0.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>jakarta standard tag library implementation</groupId>
+    <artifactId>org.glassfish.web.jakarta.servlet.jsp.jstl</artifactId>
+    <version>3.0.0</version>
+</dependency>
+----
+[[fish.payara.server.internal.payara-appserver-modules.opentracing-jaxws]]
+==== *fish.payara.server.internal.payara-appserver-modules.opentracing-jaxws*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>dataprovider</groupId>
-    <artifactId>fish.payara.server.internal.admingui.dataprovider</artifactId>
+    <groupId>opentracing jax-ws</groupId>
+    <artifactId>fish.payara.server.internal.payara-appserver-modules.opentracing-jaxws</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
-[[org.eclipse.persistence.jpa.jpql]]
-==== *org.eclipse.persistence.jpa.jpql*
-**Version**: 4.0.1.payara-p1
+[[fish.payara.server.internal.persistence.cmp.support-sqlstore]]
+==== *fish.payara.server.internal.persistence.cmp.support-sqlstore*
+**Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>eclipselink hermes parser</groupId>
-    <artifactId>org.eclipse.persistence.jpa.jpql</artifactId>
-    <version>4.0.1.payara-p1</version>
+    <groupId>support-sqlstore module for cmp</groupId>
+    <artifactId>fish.payara.server.internal.persistence.cmp.support-sqlstore</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[fish.payara.server.internal.persistence.cmp.generator-database]]
@@ -1218,6 +1218,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.0-enterprise</version>
 </dependency>
 ----
+[[fish.payara.server.internal.security.appclient.security]]
+==== *fish.payara.server.internal.security.appclient.security*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>appclient security integration</groupId>
+    <artifactId>fish.payara.server.internal.security.appclient.security</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[fish.payara.extensions.notifiers.newrelic-notifier-core]]
 ==== *fish.payara.extensions.notifiers.newrelic-notifier-core*
 **Version**: 2.0.0.enterprise
@@ -1230,15 +1242,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.0.0.enterprise</version>
 </dependency>
 ----
-[[fish.payara.server.internal.security.appclient.security]]
-==== *fish.payara.server.internal.security.appclient.security*
+[[glassfish-oracle-jdbc-driver-packages]]
+==== *glassfish-oracle-jdbc-driver-packages*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>appclient security integration</groupId>
-    <artifactId>fish.payara.server.internal.security.appclient.security</artifactId>
+    <groupId>fish.payara.server.internal.persistence</groupId>
+    <artifactId>glassfish-oracle-jdbc-driver-packages</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -1264,18 +1276,6 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>jakarta.resource api</groupId>
     <artifactId>jakarta.resource-api</artifactId>
     <version>2.1.0</version>
-</dependency>
-----
-[[glassfish-oracle-jdbc-driver-packages]]
-==== *glassfish-oracle-jdbc-driver-packages*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.internal.persistence</groupId>
-    <artifactId>glassfish-oracle-jdbc-driver-packages</artifactId>
-    <version>6.1.0</version>
 </dependency>
 ----
 [[json-smart]]
@@ -1314,51 +1314,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.internal.payara-appserver-modules.opentracing-jaxws]]
-==== *fish.payara.server.internal.payara-appserver-modules.opentracing-jaxws*
+[[fish.payara.server.internal.admingui.dataprovider]]
+==== *fish.payara.server.internal.admingui.dataprovider*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>opentracing jax-ws</groupId>
-    <artifactId>fish.payara.server.internal.payara-appserver-modules.opentracing-jaxws</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.jms.gf-jms-injection]]
-==== *fish.payara.server.internal.jms.gf-jms-injection*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>jms injection module for runtime</groupId>
-    <artifactId>fish.payara.server.internal.jms.gf-jms-injection</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[org.glassfish.web.jakarta.servlet.jsp.jstl]]
-==== *org.glassfish.web.jakarta.servlet.jsp.jstl*
-**Version**: 3.0.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>jakarta standard tag library implementation</groupId>
-    <artifactId>org.glassfish.web.jakarta.servlet.jsp.jstl</artifactId>
-    <version>3.0.0</version>
-</dependency>
-----
-[[stats77]]
-==== *stats77*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.core.common</groupId>
-    <artifactId>stats77</artifactId>
+    <groupId>dataprovider</groupId>
+    <artifactId>fish.payara.server.internal.admingui.dataprovider</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -1374,6 +1338,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>4.0.0</version>
 </dependency>
 ----
+[[stats77]]
+==== *stats77*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.core.common</groupId>
+    <artifactId>stats77</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[fish.payara.server.core.common.]]
 ==== *fish.payara.server.core.common.*
 **Version**: 6.1.0
@@ -1383,18 +1359,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>stats77</groupId>
     <artifactId>fish.payara.server.core.common.</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[jdbc-admin]]
-==== *jdbc-admin*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.internal.jdbc</groupId>
-    <artifactId>jdbc-admin</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -1410,6 +1374,30 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[fish.payara.server.core.nucleus.glassfish]]
+==== *fish.payara.server.core.nucleus.glassfish*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>appserver core bootstraping classes</groupId>
+    <artifactId>fish.payara.server.core.nucleus.glassfish</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[jdbc-admin]]
+==== *jdbc-admin*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.internal.jdbc</groupId>
+    <artifactId>jdbc-admin</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[fish.payara.server.internal.jdbc.admin]]
 ==== *fish.payara.server.internal.jdbc.admin*
 **Version**: 6.1.0
@@ -1422,15 +1410,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.core.nucleus.glassfish]]
-==== *fish.payara.server.core.nucleus.glassfish*
+[[fish.payara.server.internal.jms.gf-jms-injection]]
+==== *fish.payara.server.internal.jms.gf-jms-injection*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>appserver core bootstraping classes</groupId>
-    <artifactId>fish.payara.server.core.nucleus.glassfish</artifactId>
+    <groupId>jms injection module for runtime</groupId>
+    <artifactId>fish.payara.server.internal.jms.gf-jms-injection</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -1506,6 +1494,30 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.7.0</version>
 </dependency>
 ----
+[[org.glassfish.jersey.ext.jersey-mvc]]
+==== *org.glassfish.jersey.ext.jersey-mvc*
+**Version**: 3.1.0.payara-p1
+
+[source,xml]
+----
+<dependency>
+    <groupId>jersey-ext-mvc</groupId>
+    <artifactId>org.glassfish.jersey.ext.jersey-mvc</artifactId>
+    <version>3.1.0.payara-p1</version>
+</dependency>
+----
+[[snakeyaml]]
+==== *snakeyaml*
+**Version**: 1.33
+
+[source,xml]
+----
+<dependency>
+    <groupId>org.yaml</groupId>
+    <artifactId>snakeyaml</artifactId>
+    <version>1.33</version>
+</dependency>
+----
 [[org.osgi.util.promise]]
 ==== *org.osgi.util.promise*
 **Version**: 1.2.0
@@ -1530,16 +1542,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>1.2.0.202109301733</version>
 </dependency>
 ----
-[[org.glassfish.jersey.media.]]
-==== *org.glassfish.jersey.media.*
-**Version**: 3.1.0.payara-p1
+[[org.yaml.snakeyaml]]
+==== *org.yaml.snakeyaml*
+**Version**: 1.33.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>jersey-media-jaxb</groupId>
-    <artifactId>org.glassfish.jersey.media.</artifactId>
-    <version>3.1.0.payara-p1</version>
+    <groupId>snakeyaml</groupId>
+    <artifactId>org.yaml.snakeyaml</artifactId>
+    <version>1.33.0</version>
 </dependency>
 ----
 [[console-cluster-plugin]]
@@ -1566,30 +1578,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[snakeyaml]]
-==== *snakeyaml*
-**Version**: 1.33
-
-[source,xml]
-----
-<dependency>
-    <groupId>org.yaml</groupId>
-    <artifactId>snakeyaml</artifactId>
-    <version>1.33</version>
-</dependency>
-----
-[[org.yaml.snakeyaml]]
-==== *org.yaml.snakeyaml*
-**Version**: 1.33.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>snakeyaml</groupId>
-    <artifactId>org.yaml.snakeyaml</artifactId>
-    <version>1.33.0</version>
-</dependency>
-----
 [[org.glassfish.tyrus.core]]
 ==== *org.glassfish.tyrus.core*
 **Version**: 2.1.0.payara-p1
@@ -1611,78 +1599,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>fish.payara.server.internal.core</groupId>
     <artifactId>glassfish-javassist-packages</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.core.glassfish-javassist-packages]]
-==== *fish.payara.server.internal.core.glassfish-javassist-packages*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>glassfish javassist packages</groupId>
-    <artifactId>fish.payara.server.internal.core.glassfish-javassist-packages</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[console-jts-plugin]]
-==== *console-jts-plugin*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.internal.admingui</groupId>
-    <artifactId>console-jts-plugin</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.admingui.console-jts-plugin]]
-==== *fish.payara.server.internal.admingui.console-jts-plugin*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>admin console jts plugin</groupId>
-    <artifactId>fish.payara.server.internal.admingui.console-jts-plugin</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[org.glassfish.jersey.ext.jersey-mvc]]
-==== *org.glassfish.jersey.ext.jersey-mvc*
-**Version**: 3.1.0.payara-p1
-
-[source,xml]
-----
-<dependency>
-    <groupId>jersey-ext-mvc</groupId>
-    <artifactId>org.glassfish.jersey.ext.jersey-mvc</artifactId>
-    <version>3.1.0.payara-p1</version>
-</dependency>
-----
-[[soap-tcp]]
-==== *soap-tcp*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.internal.webservices</groupId>
-    <artifactId>soap-tcp</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.webservices.soap-tcp]]
-==== *fish.payara.server.internal.webservices.soap-tcp*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>soap/tcp integration code</groupId>
-    <artifactId>fish.payara.server.internal.webservices.soap-tcp</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -1794,39 +1710,75 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.21.0</version>
 </dependency>
 ----
-[[fish.payara.server.internal.admingui.console-jms-plugin]]
-==== *fish.payara.server.internal.admingui.console-jms-plugin*
+[[org.glassfish.jersey.media.]]
+==== *org.glassfish.jersey.media.*
+**Version**: 3.1.0.payara-p1
+
+[source,xml]
+----
+<dependency>
+    <groupId>jersey-media-jaxb</groupId>
+    <artifactId>org.glassfish.jersey.media.</artifactId>
+    <version>3.1.0.payara-p1</version>
+</dependency>
+----
+[[fish.payara.server.internal.core.glassfish-javassist-packages]]
+==== *fish.payara.server.internal.core.glassfish-javassist-packages*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>admin console jms plugin</groupId>
-    <artifactId>fish.payara.server.internal.admingui.console-jms-plugin</artifactId>
+    <groupId>glassfish javassist packages</groupId>
+    <artifactId>fish.payara.server.internal.core.glassfish-javassist-packages</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
-[[org.jline]]
-==== *org.jline*
-**Version**: 3.21.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>jline bundle</groupId>
-    <artifactId>org.jline</artifactId>
-    <version>3.21.0</version>
-</dependency>
-----
-[[ha-hazelcast-store]]
-==== *ha-hazelcast-store*
+[[console-jts-plugin]]
+==== *console-jts-plugin*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>fish.payara.server.internal.ha</groupId>
-    <artifactId>ha-hazelcast-store</artifactId>
+    <groupId>fish.payara.server.internal.admingui</groupId>
+    <artifactId>console-jts-plugin</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.internal.admingui.console-jts-plugin]]
+==== *fish.payara.server.internal.admingui.console-jts-plugin*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>admin console jts plugin</groupId>
+    <artifactId>fish.payara.server.internal.admingui.console-jts-plugin</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[soap-tcp]]
+==== *soap-tcp*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.internal.webservices</groupId>
+    <artifactId>soap-tcp</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.internal.webservices.soap-tcp]]
+==== *fish.payara.server.internal.webservices.soap-tcp*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>soap/tcp integration code</groupId>
+    <artifactId>fish.payara.server.internal.webservices.soap-tcp</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -1842,15 +1794,51 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.internal.ha.hazelcast-store]]
-==== *fish.payara.server.internal.ha.hazelcast-store*
+[[fish.payara.server.internal.admingui.console-jms-plugin]]
+==== *fish.payara.server.internal.admingui.console-jms-plugin*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>payara ha hazelcast store</groupId>
-    <artifactId>fish.payara.server.internal.ha.hazelcast-store</artifactId>
+    <groupId>admin console jms plugin</groupId>
+    <artifactId>fish.payara.server.internal.admingui.console-jms-plugin</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[ha-hazelcast-store]]
+==== *ha-hazelcast-store*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.internal.ha</groupId>
+    <artifactId>ha-hazelcast-store</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[org.jline]]
+==== *org.jline*
+**Version**: 3.21.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>jline bundle</groupId>
+    <artifactId>org.jline</artifactId>
+    <version>3.21.0</version>
+</dependency>
+----
+[[fish.payara.server.internal.persistence.entitybean-container]]
+==== *fish.payara.server.internal.persistence.entitybean-container*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>entity bean container</groupId>
+    <artifactId>fish.payara.server.internal.persistence.entitybean-container</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -1866,30 +1854,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.0.10</version>
 </dependency>
 ----
-[[fish.payara.server.internal.persistence.entitybean-container]]
-==== *fish.payara.server.internal.persistence.entitybean-container*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>entity bean container</groupId>
-    <artifactId>fish.payara.server.internal.persistence.entitybean-container</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[jakarta.interceptor-api]]
-==== *jakarta.interceptor-api*
-**Version**: 2.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>jakarta.interceptor</groupId>
-    <artifactId>jakarta.interceptor-api</artifactId>
-    <version>2.1.0</version>
-</dependency>
-----
 [[jakarta.json.bind-api]]
 ==== *jakarta.json.bind-api*
 **Version**: 3.0.0
@@ -1900,18 +1864,6 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>jakarta.json.bind</groupId>
     <artifactId>jakarta.json.bind-api</artifactId>
     <version>3.0.0</version>
-</dependency>
-----
-[[jakarta.interceptor-api]]
-==== *jakarta.interceptor-api*
-**Version**: 2.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>jakarta interceptors</groupId>
-    <artifactId>jakarta.interceptor-api</artifactId>
-    <version>2.1.0</version>
 </dependency>
 ----
 [[jakarta.json.bind-api]]
@@ -1926,6 +1878,30 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.0.0</version>
 </dependency>
 ----
+[[org.apache.felix.bundlerepository]]
+==== *org.apache.felix.bundlerepository*
+**Version**: 2.0.10
+
+[source,xml]
+----
+<dependency>
+    <groupId>apache felix bundle repository</groupId>
+    <artifactId>org.apache.felix.bundlerepository</artifactId>
+    <version>2.0.10</version>
+</dependency>
+----
+[[jakarta.interceptor-api]]
+==== *jakarta.interceptor-api*
+**Version**: 2.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>jakarta.interceptor</groupId>
+    <artifactId>jakarta.interceptor-api</artifactId>
+    <version>2.1.0</version>
+</dependency>
+----
 [[teams-notifier-console-plugin]]
 ==== *teams-notifier-console-plugin*
 **Version**: 2.0-enterprise
@@ -1938,16 +1914,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.0-enterprise</version>
 </dependency>
 ----
-[[fish.payara.extensions.notifiers.email-notifier-console-plugin]]
-==== *fish.payara.extensions.notifiers.email-notifier-console-plugin*
-**Version**: 2.0.0.enterprise
+[[jakarta.interceptor-api]]
+==== *jakarta.interceptor-api*
+**Version**: 2.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>email notifier console plugin</groupId>
-    <artifactId>fish.payara.extensions.notifiers.email-notifier-console-plugin</artifactId>
-    <version>2.0.0.enterprise</version>
+    <groupId>jakarta interceptors</groupId>
+    <artifactId>jakarta.interceptor-api</artifactId>
+    <version>2.1.0</version>
 </dependency>
 ----
 [[fish.payara.extensions.notifiers.teams-notifier-console-plugin]]
@@ -1959,6 +1935,18 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>microsoft teams notifier console plugin</groupId>
     <artifactId>fish.payara.extensions.notifiers.teams-notifier-console-plugin</artifactId>
+    <version>2.0.0.enterprise</version>
+</dependency>
+----
+[[fish.payara.extensions.notifiers.email-notifier-console-plugin]]
+==== *fish.payara.extensions.notifiers.email-notifier-console-plugin*
+**Version**: 2.0.0.enterprise
+
+[source,xml]
+----
+<dependency>
+    <groupId>email notifier console plugin</groupId>
+    <artifactId>fish.payara.extensions.notifiers.email-notifier-console-plugin</artifactId>
     <version>2.0.0.enterprise</version>
 </dependency>
 ----
@@ -1998,18 +1986,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.0-enterprise</version>
 </dependency>
 ----
-[[fish.payara.extensions.notifiers.snmp-notifier-core]]
-==== *fish.payara.extensions.notifiers.snmp-notifier-core*
-**Version**: 2.0.0.enterprise
-
-[source,xml]
-----
-<dependency>
-    <groupId>snmp notifier implementation</groupId>
-    <artifactId>fish.payara.extensions.notifiers.snmp-notifier-core</artifactId>
-    <version>2.0.0.enterprise</version>
-</dependency>
-----
 [[healthcheck-service-console-plugin]]
 ==== *healthcheck-service-console-plugin*
 **Version**: 6.1.0
@@ -2020,6 +1996,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>fish.payara.server.internal.admingui</groupId>
     <artifactId>healthcheck-service-console-plugin</artifactId>
     <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.extensions.notifiers.snmp-notifier-core]]
+==== *fish.payara.extensions.notifiers.snmp-notifier-core*
+**Version**: 2.0.0.enterprise
+
+[source,xml]
+----
+<dependency>
+    <groupId>snmp notifier implementation</groupId>
+    <artifactId>fish.payara.extensions.notifiers.snmp-notifier-core</artifactId>
+    <version>2.0.0.enterprise</version>
 </dependency>
 ----
 [[fish.payara.server.internal.admingui.healthcheck-service-console-plugin]]
@@ -2046,16 +2034,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[org.apache.felix.bundlerepository]]
-==== *org.apache.felix.bundlerepository*
-**Version**: 2.0.10
+[[fish.payara.server.internal.docker]]
+==== *fish.payara.server.internal.docker*
+**Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>apache felix bundle repository</groupId>
-    <artifactId>org.apache.felix.bundlerepository</artifactId>
-    <version>2.0.10</version>
+    <groupId>docker</groupId>
+    <artifactId>fish.payara.server.internal.docker</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[load-balancer-admin]]
@@ -2070,6 +2058,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[microprofile-opentracing]]
+==== *microprofile-opentracing*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.internal.payara-appserver-modules</groupId>
+    <artifactId>microprofile-opentracing</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[fish.payara.server.internal.load-balancer.admin]]
 ==== *fish.payara.server.internal.load-balancer.admin*
 **Version**: 6.1.0
@@ -2079,18 +2079,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>load-balancer admin</groupId>
     <artifactId>fish.payara.server.internal.load-balancer.admin</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.docker]]
-==== *fish.payara.server.internal.docker*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>docker</groupId>
-    <artifactId>fish.payara.server.internal.docker</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -2166,6 +2154,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[fish.payara.server.internal.ha.hazelcast-store]]
+==== *fish.payara.server.internal.ha.hazelcast-store*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>payara ha hazelcast store</groupId>
+    <artifactId>fish.payara.server.internal.ha.hazelcast-store</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[microprofile-connector]]
 ==== *microprofile-connector*
 **Version**: 6.1.0
@@ -2175,18 +2175,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>fish.payara.server.internal.payara-appserver-modules</groupId>
     <artifactId>microprofile-connector</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.web.jersey-mvc-connector]]
-==== *fish.payara.server.internal.web.jersey-mvc-connector*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>jersey mvc tld connector implementation module</groupId>
-    <artifactId>fish.payara.server.internal.web.jersey-mvc-connector</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -2202,15 +2190,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.core.web.naming]]
-==== *fish.payara.server.core.web.naming*
+[[fish.payara.server.internal.web.jersey-mvc-connector]]
+==== *fish.payara.server.internal.web.jersey-mvc-connector*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>web container naming utilities</groupId>
-    <artifactId>fish.payara.server.core.web.naming</artifactId>
+    <groupId>jersey mvc tld connector implementation module</groupId>
+    <artifactId>fish.payara.server.internal.web.jersey-mvc-connector</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -2238,6 +2226,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[fish.payara.server.core.web.naming]]
+==== *fish.payara.server.core.web.naming*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>web container naming utilities</groupId>
+    <artifactId>fish.payara.server.core.web.naming</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[eventbus-notifier-console-plugin]]
 ==== *eventbus-notifier-console-plugin*
 **Version**: 6.1.0
@@ -2247,18 +2247,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>fish.payara.server.internal.admingui</groupId>
     <artifactId>eventbus-notifier-console-plugin</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.core.web.sse]]
-==== *fish.payara.server.core.web.sse*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>server-sent events</groupId>
-    <artifactId>fish.payara.server.core.web.sse</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -2274,6 +2262,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[fish.payara.server.core.web.sse]]
+==== *fish.payara.server.core.web.sse*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>server-sent events</groupId>
+    <artifactId>fish.payara.server.core.web.sse</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[acc-config]]
 ==== *acc-config*
 **Version**: 6.1.0
@@ -2286,18 +2286,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.deployment.transformer.deployment-transformer-api]]
-==== *fish.payara.deployment.transformer.deployment-transformer-api*
-**Version**: 1.2.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.deployment.transformer:deployment-transformer-api</groupId>
-    <artifactId>fish.payara.deployment.transformer.deployment-transformer-api</artifactId>
-    <version>1.2.0</version>
-</dependency>
-----
 [[fish.payara.server.appclient.acc-config]]
 ==== *fish.payara.server.appclient.acc-config*
 **Version**: 6.1.0
@@ -2307,18 +2295,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>acc config classes (jaxb)</groupId>
     <artifactId>fish.payara.server.appclient.acc-config</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[payara-micro-service]]
-==== *payara-micro-service*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.internal.payara-appserver-modules</groupId>
-    <artifactId>payara-micro-service</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -2334,18 +2310,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.internal.payara-appserver-modules.payara-micro-service]]
-==== *fish.payara.server.internal.payara-appserver-modules.payara-micro-service*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>payara micro service</groupId>
-    <artifactId>fish.payara.server.internal.payara-appserver-modules.payara-micro-service</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[fish.payara.server.internal.extras.payara-micro-boot]]
 ==== *fish.payara.server.internal.extras.payara-micro-boot*
 **Version**: 6.1.0
@@ -2355,6 +2319,30 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>payara micro boot</groupId>
     <artifactId>fish.payara.server.internal.extras.payara-micro-boot</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[payara-micro-service]]
+==== *payara-micro-service*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.internal.payara-appserver-modules</groupId>
+    <artifactId>payara-micro-service</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.internal.payara-appserver-modules.payara-micro-service]]
+==== *fish.payara.server.internal.payara-appserver-modules.payara-micro-service*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>payara micro service</groupId>
+    <artifactId>fish.payara.server.internal.payara-appserver-modules.payara-micro-service</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -2370,16 +2358,28 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.0.1.payara-p3</version>
 </dependency>
 ----
-[[org.eclipse.persistence.core]]
-==== *org.eclipse.persistence.core*
-**Version**: 4.0.1.payara-p1
+[[org.glassfish.hk2.extras]]
+==== *org.glassfish.hk2.extras*
+**Version**: 3.0.1.payara-p3
 
 [source,xml]
 ----
 <dependency>
-    <groupId>eclipselink core</groupId>
-    <artifactId>org.eclipse.persistence.core</artifactId>
-    <version>4.0.1.payara-p1</version>
+    <groupId>hk2 extras module</groupId>
+    <artifactId>org.glassfish.hk2.extras</artifactId>
+    <version>3.0.1.payara-p3</version>
+</dependency>
+----
+[[fish.payara.deployment.transformer.deployment-transformer-api]]
+==== *fish.payara.deployment.transformer.deployment-transformer-api*
+**Version**: 1.2.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.deployment.transformer:deployment-transformer-api</groupId>
+    <artifactId>fish.payara.deployment.transformer.deployment-transformer-api</artifactId>
+    <version>1.2.0</version>
 </dependency>
 ----
 [[payara-insight-console-plugin]]
@@ -2418,18 +2418,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.core.admin.config-api]]
-==== *fish.payara.server.core.admin.config-api*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>admin-config-api</groupId>
-    <artifactId>fish.payara.server.core.admin.config-api</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[com.sun.pkg.client]]
 ==== *com.sun.pkg.client*
 **Version**: 1.0.0
@@ -2452,6 +2440,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>jakarta.enterprise.deploy</groupId>
     <artifactId>jakarta.enterprise.deploy-api</artifactId>
     <version>1.7.2</version>
+</dependency>
+----
+[[fish.payara.server.core.admin.config-api]]
+==== *fish.payara.server.core.admin.config-api*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>admin-config-api</groupId>
+    <artifactId>fish.payara.server.core.admin.config-api</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[javax.enterprise.deploy-api]]
@@ -2490,18 +2490,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[org.glassfish.hk2.extras]]
-==== *org.glassfish.hk2.extras*
-**Version**: 3.0.1.payara-p3
-
-[source,xml]
-----
-<dependency>
-    <groupId>hk2 extras module</groupId>
-    <artifactId>org.glassfish.hk2.extras</artifactId>
-    <version>3.0.1.payara-p3</version>
-</dependency>
-----
 [[org.eclipse.persistence.oracle]]
 ==== *org.eclipse.persistence.oracle*
 **Version**: 4.0.1.payara-p1
@@ -2526,6 +2514,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.1.0</version>
 </dependency>
 ----
+[[org.eclipse.persistence.core]]
+==== *org.eclipse.persistence.core*
+**Version**: 4.0.1.payara-p1
+
+[source,xml]
+----
+<dependency>
+    <groupId>eclipselink core</groupId>
+    <artifactId>org.eclipse.persistence.core</artifactId>
+    <version>4.0.1.payara-p1</version>
+</dependency>
+----
 [[org.glassfish.jersey.ext.jersey-mvc-jsp]]
 ==== *org.glassfish.jersey.ext.jersey-mvc-jsp*
 **Version**: 3.1.0.payara-p1
@@ -2536,6 +2536,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>jersey-ext-mvc-jsp</groupId>
     <artifactId>org.glassfish.jersey.ext.jersey-mvc-jsp</artifactId>
     <version>3.1.0.payara-p1</version>
+</dependency>
+----
+[[teams-notifier-core]]
+==== *teams-notifier-core*
+**Version**: 2.0-enterprise
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.extensions.notifiers</groupId>
+    <artifactId>teams-notifier-core</artifactId>
+    <version>2.0-enterprise</version>
 </dependency>
 ----
 [[jboss-classfilewriter]]
@@ -2598,6 +2610,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[com.fasterxml.jackson.module.jackson-module-jakarta-xmlbind-annotations]]
+==== *com.fasterxml.jackson.module.jackson-module-jakarta-xmlbind-annotations*
+**Version**: 2.14.1
+
+[source,xml]
+----
+<dependency>
+    <groupId>jackson module: jakarta xml bind annotations (jakarta.xml.bind)</groupId>
+    <artifactId>com.fasterxml.jackson.module.jackson-module-jakarta-xmlbind-annotations</artifactId>
+    <version>2.14.1</version>
+</dependency>
+----
 [[fish.payara.server.core.nucleus.kernel]]
 ==== *fish.payara.server.core.nucleus.kernel*
 **Version**: 6.1.0
@@ -2634,18 +2658,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[teams-notifier-core]]
-==== *teams-notifier-core*
-**Version**: 2.0-enterprise
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.extensions.notifiers</groupId>
-    <artifactId>teams-notifier-core</artifactId>
-    <version>2.0-enterprise</version>
-</dependency>
-----
 [[fish.payara.extensions.notifiers.teams-notifier-core]]
 ==== *fish.payara.extensions.notifiers.teams-notifier-core*
 **Version**: 2.0.0.enterprise
@@ -2656,18 +2668,6 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>microsoft teams notifier implementation</groupId>
     <artifactId>fish.payara.extensions.notifiers.teams-notifier-core</artifactId>
     <version>2.0.0.enterprise</version>
-</dependency>
-----
-[[fish.payara.server.internal.persistence.jpa-container]]
-==== *fish.payara.server.internal.persistence.jpa-container*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>jpa container for glassfish</groupId>
-    <artifactId>fish.payara.server.internal.persistence.jpa-container</artifactId>
-    <version>6.1.0</version>
 </dependency>
 ----
 [[opentracing-repackaged]]
@@ -2802,16 +2802,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[org.glassfish.jersey.core.jersey-client]]
-==== *org.glassfish.jersey.core.jersey-client*
-**Version**: 3.1.0.payara-p1
+[[fish.payara.server.core.connectors.internal-api]]
+==== *fish.payara.server.core.connectors.internal-api*
+**Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>jersey-core-client</groupId>
-    <artifactId>org.glassfish.jersey.core.jersey-client</artifactId>
-    <version>3.1.0.payara-p1</version>
+    <groupId>connectors private apis for glassfish containers</groupId>
+    <artifactId>fish.payara.server.core.connectors.internal-api</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[aopalliance-repackaged]]
@@ -2838,16 +2838,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.0.1.payara-p3</version>
 </dependency>
 ----
-[[fish.payara.server.core.connectors.internal-api]]
-==== *fish.payara.server.core.connectors.internal-api*
-**Version**: 6.1.0
+[[org.glassfish.jersey.core.jersey-client]]
+==== *org.glassfish.jersey.core.jersey-client*
+**Version**: 3.1.0.payara-p1
 
 [source,xml]
 ----
 <dependency>
-    <groupId>connectors private apis for glassfish containers</groupId>
-    <artifactId>fish.payara.server.core.connectors.internal-api</artifactId>
-    <version>6.1.0</version>
+    <groupId>jersey-core-client</groupId>
+    <artifactId>org.glassfish.jersey.core.jersey-client</artifactId>
+    <version>3.1.0.payara-p1</version>
 </dependency>
 ----
 [[org.glassfish.jersey.ext.cdi.jersey-cdi1x]]
@@ -2862,16 +2862,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.1.0.payara-p1</version>
 </dependency>
 ----
-[[com.fasterxml.jackson.module.jackson-module-jakarta-xmlbind-annotations]]
-==== *com.fasterxml.jackson.module.jackson-module-jakarta-xmlbind-annotations*
-**Version**: 2.14.1
+[[fish.payara.server.internal.connectors.runtime]]
+==== *fish.payara.server.internal.connectors.runtime*
+**Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>jackson module: jakarta xml bind annotations (jakarta.xml.bind)</groupId>
-    <artifactId>com.fasterxml.jackson.module.jackson-module-jakarta-xmlbind-annotations</artifactId>
-    <version>2.14.1</version>
+    <groupId>connectors runtime</groupId>
+    <artifactId>fish.payara.server.internal.connectors.runtime</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[fish.payara.server.internal.transaction.jta]]
@@ -2886,16 +2886,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[security-connector-oidc-client]]
-==== *security-connector-oidc-client*
-**Version**: 3.0.0.alpha6
+[[fish.payara.server.internal.persistence.jpa-container]]
+==== *fish.payara.server.internal.persistence.jpa-container*
+**Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>security connector - openid connect client</groupId>
-    <artifactId>security-connector-oidc-client</artifactId>
-    <version>3.0.0.alpha6</version>
+    <groupId>jpa container for glassfish</groupId>
+    <artifactId>fish.payara.server.internal.persistence.jpa-container</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[jakarta.inject.jakarta.inject-api]]
@@ -2958,28 +2958,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.extras.certificate-management.admin]]
-==== *fish.payara.extras.certificate-management.admin*
-**Version**: 6.1.0
+[[security-connector-oidc-client]]
+==== *security-connector-oidc-client*
+**Version**: 3.0.0.alpha6
 
 [source,xml]
 ----
 <dependency>
-    <groupId>payara certificate management admin commands</groupId>
-    <artifactId>fish.payara.extras.certificate-management.admin</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[snmp-notifier-console-plugin]]
-==== *snmp-notifier-console-plugin*
-**Version**: 2.0-enterprise
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.extensions.notifiers</groupId>
-    <artifactId>snmp-notifier-console-plugin</artifactId>
-    <version>2.0-enterprise</version>
+    <groupId>security connector - openid connect client</groupId>
+    <artifactId>security-connector-oidc-client</artifactId>
+    <version>3.0.0.alpha6</version>
 </dependency>
 ----
 [[pfl-tf]]
@@ -2994,18 +2982,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>4.1.2</version>
 </dependency>
 ----
-[[fish.payara.extensions.notifiers.snmp-notifier-console-plugin]]
-==== *fish.payara.extensions.notifiers.snmp-notifier-console-plugin*
-**Version**: 2.0.0.enterprise
-
-[source,xml]
-----
-<dependency>
-    <groupId>snmp notifier console plugin</groupId>
-    <artifactId>fish.payara.extensions.notifiers.snmp-notifier-console-plugin</artifactId>
-    <version>2.0.0.enterprise</version>
-</dependency>
-----
 [[org.glassfish.pfl.pfl-tf]]
 ==== *org.glassfish.pfl.pfl-tf*
 **Version**: 4.1.2
@@ -3018,6 +2994,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>4.1.2</version>
 </dependency>
 ----
+[[fish.payara.extras.certificate-management.admin]]
+==== *fish.payara.extras.certificate-management.admin*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>payara certificate management admin commands</groupId>
+    <artifactId>fish.payara.extras.certificate-management.admin</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[fish.payara.server.internal.webservices.connector]]
 ==== *fish.payara.server.internal.webservices.connector*
 **Version**: 6.1.0
@@ -3028,6 +3016,30 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>connector for glassfish web services container</groupId>
     <artifactId>fish.payara.server.internal.webservices.connector</artifactId>
     <version>6.1.0</version>
+</dependency>
+----
+[[jakarta.servlet.jsp.jstl-api]]
+==== *jakarta.servlet.jsp.jstl-api*
+**Version**: 3.0.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>jakarta standard tag library api</groupId>
+    <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+    <version>3.0.0</version>
+</dependency>
+----
+[[org.glassfish.jersey.media.]]
+==== *org.glassfish.jersey.media.*
+**Version**: 3.1.0.payara-p1
+
+[source,xml]
+----
+<dependency>
+    <groupId>jersey-media-json-binding</groupId>
+    <artifactId>org.glassfish.jersey.media.</artifactId>
+    <version>3.1.0.payara-p1</version>
 </dependency>
 ----
 [[jsr107-repackaged]]
@@ -3054,52 +3066,28 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[org.glassfish.jersey.media.]]
-==== *org.glassfish.jersey.media.*
-**Version**: 3.1.0.payara-p1
+[[snmp-notifier-console-plugin]]
+==== *snmp-notifier-console-plugin*
+**Version**: 2.0-enterprise
 
 [source,xml]
 ----
 <dependency>
-    <groupId>jersey-media-json-binding</groupId>
-    <artifactId>org.glassfish.jersey.media.</artifactId>
-    <version>3.1.0.payara-p1</version>
+    <groupId>fish.payara.extensions.notifiers</groupId>
+    <artifactId>snmp-notifier-console-plugin</artifactId>
+    <version>2.0-enterprise</version>
 </dependency>
 ----
-[[org.hibernate.validator]]
-==== *org.hibernate.validator*
-**Version**: 8.0.0.final
+[[fish.payara.extensions.notifiers.snmp-notifier-console-plugin]]
+==== *fish.payara.extensions.notifiers.snmp-notifier-console-plugin*
+**Version**: 2.0.0.enterprise
 
 [source,xml]
 ----
 <dependency>
-    <groupId>hibernate validator engine</groupId>
-    <artifactId>org.hibernate.validator</artifactId>
-    <version>8.0.0.final</version>
-</dependency>
-----
-[[org.eclipse.persistence.jpa]]
-==== *org.eclipse.persistence.jpa*
-**Version**: 4.0.1.payara-p1
-
-[source,xml]
-----
-<dependency>
-    <groupId>eclipselink jpa</groupId>
-    <artifactId>org.eclipse.persistence.jpa</artifactId>
-    <version>4.0.1.payara-p1</version>
-</dependency>
-----
-[[jakarta.servlet.jsp.jstl-api]]
-==== *jakarta.servlet.jsp.jstl-api*
-**Version**: 3.0.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>jakarta standard tag library api</groupId>
-    <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
-    <version>3.0.0</version>
+    <groupId>snmp notifier console plugin</groupId>
+    <artifactId>fish.payara.extensions.notifiers.snmp-notifier-console-plugin</artifactId>
+    <version>2.0.0.enterprise</version>
 </dependency>
 ----
 [[fish.payara.server.internal.payara-appserver-modules.jaxrs-client-tracing]]
@@ -3198,16 +3186,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[microprofile-jwt-auth-api]]
-==== *microprofile-jwt-auth-api*
-**Version**: 2.1
+[[org.eclipse.persistence.jpa]]
+==== *org.eclipse.persistence.jpa*
+**Version**: 4.0.1.payara-p1
 
 [source,xml]
 ----
 <dependency>
-    <groupId>org.eclipse.microprofile.jwt</groupId>
-    <artifactId>microprofile-jwt-auth-api</artifactId>
-    <version>2.1</version>
+    <groupId>eclipselink jpa</groupId>
+    <artifactId>org.eclipse.persistence.jpa</artifactId>
+    <version>4.0.1.payara-p1</version>
 </dependency>
 ----
 [[jakarta.jws-api]]
@@ -3258,16 +3246,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[org.glassfish.corba.glassfish-corba-csiv2-idl]]
-==== *org.glassfish.corba.glassfish-corba-csiv2-idl*
-**Version**: 4.2.4.payara-p2
+[[org.hibernate.validator]]
+==== *org.hibernate.validator*
+**Version**: 8.0.0.final
 
 [source,xml]
 ----
 <dependency>
-    <groupId>generated csiv2 apis</groupId>
-    <artifactId>org.glassfish.corba.glassfish-corba-csiv2-idl</artifactId>
-    <version>4.2.4.payara-p2</version>
+    <groupId>hibernate validator engine</groupId>
+    <artifactId>org.hibernate.validator</artifactId>
+    <version>8.0.0.final</version>
 </dependency>
 ----
 [[jakarta.transaction-api]]
@@ -3282,16 +3270,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.0.1</version>
 </dependency>
 ----
-[[fish.payara.server.internal.connectors.runtime]]
-==== *fish.payara.server.internal.connectors.runtime*
-**Version**: 6.1.0
+[[org.eclipse.persistence.dbws]]
+==== *org.eclipse.persistence.dbws*
+**Version**: 4.0.1.payara-p1
 
 [source,xml]
 ----
 <dependency>
-    <groupId>connectors runtime</groupId>
-    <artifactId>fish.payara.server.internal.connectors.runtime</artifactId>
-    <version>6.1.0</version>
+    <groupId>eclipselink dbws</groupId>
+    <artifactId>org.eclipse.persistence.dbws</artifactId>
+    <version>4.0.1.payara-p1</version>
 </dependency>
 ----
 [[fish.payara.server.internal.deployment.admin]]
@@ -3426,42 +3414,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.0.1.payara-p1</version>
 </dependency>
 ----
-[[resources-connector]]
-==== *resources-connector*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.core.resources</groupId>
-    <artifactId>resources-connector</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[microprofile-jwt-auth]]
-==== *microprofile-jwt-auth*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.internal.payara-appserver-modules</groupId>
-    <artifactId>microprofile-jwt-auth</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[org.eclipse.persistence.dbws]]
-==== *org.eclipse.persistence.dbws*
-**Version**: 4.0.1.payara-p1
-
-[source,xml]
-----
-<dependency>
-    <groupId>eclipselink dbws</groupId>
-    <artifactId>org.eclipse.persistence.dbws</artifactId>
-    <version>4.0.1.payara-p1</version>
-</dependency>
-----
 [[slack-notifier-console-plugin]]
 ==== *slack-notifier-console-plugin*
 **Version**: 2.0-enterprise
@@ -3486,18 +3438,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.0.0.enterprise</version>
 </dependency>
 ----
-[[osgi-adapter]]
-==== *osgi-adapter*
-**Version**: 3.0.1.payara-p3
-
-[source,xml]
-----
-<dependency>
-    <groupId>org.glassfish.hk2</groupId>
-    <artifactId>osgi-adapter</artifactId>
-    <version>3.0.1.payara-p3</version>
-</dependency>
-----
 [[web-core]]
 ==== *web-core*
 **Version**: 6.1.0
@@ -3508,18 +3448,6 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>fish.payara.server.core.web</groupId>
     <artifactId>web-core</artifactId>
     <version>6.1.0</version>
-</dependency>
-----
-[[org.glassfish.hk2.osgi-adapter]]
-==== *org.glassfish.hk2.osgi-adapter*
-**Version**: 3.0.1.payara-p3
-
-[source,xml]
-----
-<dependency>
-    <groupId>hk2 osgi adapter</groupId>
-    <artifactId>org.glassfish.hk2.osgi-adapter</artifactId>
-    <version>3.0.1.payara-p3</version>
 </dependency>
 ----
 [[fish.payara.server.core.web.core]]
@@ -3534,6 +3462,42 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[org.glassfish.corba.glassfish-corba-csiv2-idl]]
+==== *org.glassfish.corba.glassfish-corba-csiv2-idl*
+**Version**: 4.2.4.payara-p2
+
+[source,xml]
+----
+<dependency>
+    <groupId>generated csiv2 apis</groupId>
+    <artifactId>org.glassfish.corba.glassfish-corba-csiv2-idl</artifactId>
+    <version>4.2.4.payara-p2</version>
+</dependency>
+----
+[[osgi-adapter]]
+==== *osgi-adapter*
+**Version**: 3.0.1.payara-p3
+
+[source,xml]
+----
+<dependency>
+    <groupId>org.glassfish.hk2</groupId>
+    <artifactId>osgi-adapter</artifactId>
+    <version>3.0.1.payara-p3</version>
+</dependency>
+----
+[[org.glassfish.hk2.osgi-adapter]]
+==== *org.glassfish.hk2.osgi-adapter*
+**Version**: 3.0.1.payara-p3
+
+[source,xml]
+----
+<dependency>
+    <groupId>hk2 osgi adapter</groupId>
+    <artifactId>org.glassfish.hk2.osgi-adapter</artifactId>
+    <version>3.0.1.payara-p3</version>
+</dependency>
+----
 [[slack-notifier-core]]
 ==== *slack-notifier-core*
 **Version**: 2.0-enterprise
@@ -3546,18 +3510,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.0-enterprise</version>
 </dependency>
 ----
-[[fish.payara.extensions.notifiers.slack-notifier-core]]
-==== *fish.payara.extensions.notifiers.slack-notifier-core*
-**Version**: 2.0.0.enterprise
-
-[source,xml]
-----
-<dependency>
-    <groupId>slack notifier implementation</groupId>
-    <artifactId>fish.payara.extensions.notifiers.slack-notifier-core</artifactId>
-    <version>2.0.0.enterprise</version>
-</dependency>
-----
 [[fish.payara.server.internal.payara-appserver-modules.jmx-monitoring]]
 ==== *fish.payara.server.internal.payara-appserver-modules.jmx-monitoring*
 **Version**: 6.1.0
@@ -3568,6 +3520,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>jmx monitoring</groupId>
     <artifactId>fish.payara.server.internal.payara-appserver-modules.jmx-monitoring</artifactId>
     <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.extensions.notifiers.slack-notifier-core]]
+==== *fish.payara.extensions.notifiers.slack-notifier-core*
+**Version**: 2.0.0.enterprise
+
+[source,xml]
+----
+<dependency>
+    <groupId>slack notifier implementation</groupId>
+    <artifactId>fish.payara.extensions.notifiers.slack-notifier-core</artifactId>
+    <version>2.0.0.enterprise</version>
 </dependency>
 ----
 [[payara-jsr107]]
@@ -3594,30 +3558,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[faces-compat]]
-==== *faces-compat*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.internal.admingui</groupId>
-    <artifactId>faces-compat</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[jakarta.faces]]
-==== *jakarta.faces*
-**Version**: 3.0.2
-
-[source,xml]
-----
-<dependency>
-    <groupId>org.glassfish</groupId>
-    <artifactId>jakarta.faces</artifactId>
-    <version>3.0.2</version>
-</dependency>
-----
 [[org.glassfish.jersey.media.]]
 ==== *org.glassfish.jersey.media.*
 **Version**: 3.1.0.payara-p1
@@ -3642,6 +3582,54 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.7.0</version>
 </dependency>
 ----
+[[faces-compat]]
+==== *faces-compat*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.internal.admingui</groupId>
+    <artifactId>faces-compat</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[jakarta.faces]]
+==== *jakarta.faces*
+**Version**: 3.0.2
+
+[source,xml]
+----
+<dependency>
+    <groupId>org.glassfish</groupId>
+    <artifactId>jakarta.faces</artifactId>
+    <version>3.0.2</version>
+</dependency>
+----
+[[fish.payara.server.internal.admingui.]]
+==== *fish.payara.server.internal.admingui.*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>faces-compat</groupId>
+    <artifactId>fish.payara.server.internal.admingui.</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[resources-connector]]
+==== *resources-connector*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.core.resources</groupId>
+    <artifactId>resources-connector</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[fish.payara.server.core.resources.connector]]
 ==== *fish.payara.server.core.resources.connector*
 **Version**: 6.1.0
@@ -3664,18 +3652,6 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>apache commons bcel</groupId>
     <artifactId>org.apache.bcel</artifactId>
     <version>6.7.0</version>
-</dependency>
-----
-[[org.igniterealtime.smack.im]]
-==== *org.igniterealtime.smack.im*
-**Version**: 4.3.4
-
-[source,xml]
-----
-<dependency>
-    <groupId>smack-im</groupId>
-    <artifactId>org.igniterealtime.smack.im</artifactId>
-    <version>4.3.4</version>
 </dependency>
 ----
 [[gmbal]]
@@ -3750,18 +3726,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.0.2</version>
 </dependency>
 ----
-[[yasson]]
-==== *yasson*
-**Version**: 3.0.2
-
-[source,xml]
-----
-<dependency>
-    <groupId>yasson</groupId>
-    <artifactId>yasson</artifactId>
-    <version>3.0.2</version>
-</dependency>
-----
 [[org.glassfish.jersey.ext.microprofile.]]
 ==== *org.glassfish.jersey.ext.microprofile.*
 **Version**: 3.1.0.payara-p1
@@ -3774,6 +3738,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.1.0.payara-p1</version>
 </dependency>
 ----
+[[yasson]]
+==== *yasson*
+**Version**: 3.0.2
+
+[source,xml]
+----
+<dependency>
+    <groupId>yasson</groupId>
+    <artifactId>yasson</artifactId>
+    <version>3.0.2</version>
+</dependency>
+----
 [[pfl-dynamic]]
 ==== *pfl-dynamic*
 **Version**: 4.1.2
@@ -3783,18 +3759,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>org.glassfish.pfl</groupId>
     <artifactId>pfl-dynamic</artifactId>
-    <version>4.1.2</version>
-</dependency>
-----
-[[org.glassfish.pfl.pfl-dynamic]]
-==== *org.glassfish.pfl.pfl-dynamic*
-**Version**: 4.1.2
-
-[source,xml]
-----
-<dependency>
-    <groupId>pfl dynamic</groupId>
-    <artifactId>org.glassfish.pfl.pfl-dynamic</artifactId>
     <version>4.1.2</version>
 </dependency>
 ----
@@ -3810,6 +3774,30 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[org.glassfish.pfl.pfl-dynamic]]
+==== *org.glassfish.pfl.pfl-dynamic*
+**Version**: 4.1.2
+
+[source,xml]
+----
+<dependency>
+    <groupId>pfl dynamic</groupId>
+    <artifactId>org.glassfish.pfl.pfl-dynamic</artifactId>
+    <version>4.1.2</version>
+</dependency>
+----
+[[healthcheck-core]]
+==== *healthcheck-core*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.core.payara-modules</groupId>
+    <artifactId>healthcheck-core</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[fish.payara.server.internal.concurrent.connector]]
 ==== *fish.payara.server.internal.concurrent.connector*
 **Version**: 6.1.0
@@ -3822,15 +3810,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[healthcheck-core]]
-==== *healthcheck-core*
+[[fish.payara.server.core.payara-modules.healthcheck-core]]
+==== *fish.payara.server.core.payara-modules.healthcheck-core*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>fish.payara.server.core.payara-modules</groupId>
-    <artifactId>healthcheck-core</artifactId>
+    <groupId>healthcheck core services</groupId>
+    <artifactId>fish.payara.server.core.payara-modules.healthcheck-core</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -3846,18 +3834,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.0.1.payara-p3</version>
 </dependency>
 ----
-[[org.glassfish.hk2.locator]]
-==== *org.glassfish.hk2.locator*
-**Version**: 3.0.1.payara-p3
-
-[source,xml]
-----
-<dependency>
-    <groupId>servicelocator default implementation</groupId>
-    <artifactId>org.glassfish.hk2.locator</artifactId>
-    <version>3.0.1.payara-p3</version>
-</dependency>
-----
 [[accessors-smart]]
 ==== *accessors-smart*
 **Version**: 2.4.8
@@ -3868,6 +3844,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>net.minidev</groupId>
     <artifactId>accessors-smart</artifactId>
     <version>2.4.8</version>
+</dependency>
+----
+[[org.glassfish.hk2.locator]]
+==== *org.glassfish.hk2.locator*
+**Version**: 3.0.1.payara-p3
+
+[source,xml]
+----
+<dependency>
+    <groupId>servicelocator default implementation</groupId>
+    <artifactId>org.glassfish.hk2.locator</artifactId>
+    <version>3.0.1.payara-p3</version>
 </dependency>
 ----
 [[net.minidev.]]
@@ -3894,18 +3882,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.1.0.payara-p1</version>
 </dependency>
 ----
-[[fish.payara.server.core.payara-modules.healthcheck-core]]
-==== *fish.payara.server.core.payara-modules.healthcheck-core*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>healthcheck core services</groupId>
-    <artifactId>fish.payara.server.core.payara-modules.healthcheck-core</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[console-common-full-plugin]]
 ==== *console-common-full-plugin*
 **Version**: 6.1.0
@@ -3930,16 +3906,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[org.glassfish.tyrus.container-servlet]]
-==== *org.glassfish.tyrus.container-servlet*
-**Version**: 2.1.0.payara-p1
+[[org.igniterealtime.smack.im]]
+==== *org.igniterealtime.smack.im*
+**Version**: 4.3.4
 
 [source,xml]
 ----
 <dependency>
-    <groupId>tyrus servlet bundle</groupId>
-    <artifactId>org.glassfish.tyrus.container-servlet</artifactId>
-    <version>2.1.0.payara-p1</version>
+    <groupId>smack-im</groupId>
+    <artifactId>org.igniterealtime.smack.im</artifactId>
+    <version>4.3.4</version>
 </dependency>
 ----
 [[config-types]]
@@ -3976,6 +3952,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>deployment client classes and interfaces</groupId>
     <artifactId>fish.payara.server.internal.deployment.deployment-client</artifactId>
     <version>6.1.0</version>
+</dependency>
+----
+[[org.glassfish.tyrus.container-servlet]]
+==== *org.glassfish.tyrus.container-servlet*
+**Version**: 2.1.0.payara-p1
+
+[source,xml]
+----
+<dependency>
+    <groupId>tyrus servlet bundle</groupId>
+    <artifactId>org.glassfish.tyrus.container-servlet</artifactId>
+    <version>2.1.0.payara-p1</version>
 </dependency>
 ----
 [[security-connector-oauth2-client]]
@@ -4074,30 +4062,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.internal.orb.iiop]]
-==== *fish.payara.server.internal.orb.iiop*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>glassfish orb interface layer implementation</groupId>
-    <artifactId>fish.payara.server.internal.orb.iiop</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.admingui.]]
-==== *fish.payara.server.internal.admingui.*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>faces-compat</groupId>
-    <artifactId>fish.payara.server.internal.admingui.</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[payara-console-extras]]
 ==== *payara-console-extras*
 **Version**: 6.1.0
@@ -4158,6 +4122,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[fish.payara.server.internal.orb.iiop]]
+==== *fish.payara.server.internal.orb.iiop*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>glassfish orb interface layer implementation</groupId>
+    <artifactId>fish.payara.server.internal.orb.iiop</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[gf-admingui-connector]]
 ==== *gf-admingui-connector*
 **Version**: 6.1.0
@@ -4180,18 +4156,6 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>admin console integration</groupId>
     <artifactId>fish.payara.server.internal.admingui.gf-admingui-connector</artifactId>
     <version>6.1.0</version>
-</dependency>
-----
-[[jakarta.faces]]
-==== *jakarta.faces*
-**Version**: 4.0.0.payara-p2
-
-[source,xml]
-----
-<dependency>
-    <groupId>org.glassfish</groupId>
-    <artifactId>jakarta.faces</artifactId>
-    <version>4.0.0.payara-p2</version>
 </dependency>
 ----
 [[hk2-core]]
@@ -4242,15 +4206,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[org.glassfish.jakarta.faces]]
-==== *org.glassfish.jakarta.faces*
+[[jakarta.faces]]
+==== *jakarta.faces*
 **Version**: 4.0.0.payara-p2
 
 [source,xml]
 ----
 <dependency>
-    <groupId>mojarra faces implementation 4.0.0.payara-p2</groupId>
-    <artifactId>org.glassfish.jakarta.faces</artifactId>
+    <groupId>org.glassfish</groupId>
+    <artifactId>jakarta.faces</artifactId>
     <version>4.0.0.payara-p2</version>
 </dependency>
 ----
@@ -4264,6 +4228,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>jersey-media-json-processing</groupId>
     <artifactId>org.glassfish.jersey.media.</artifactId>
     <version>3.1.0.payara-p1</version>
+</dependency>
+----
+[[org.glassfish.jakarta.faces]]
+==== *org.glassfish.jakarta.faces*
+**Version**: 4.0.0.payara-p2
+
+[source,xml]
+----
+<dependency>
+    <groupId>mojarra faces implementation 4.0.0.payara-p2</groupId>
+    <artifactId>org.glassfish.jakarta.faces</artifactId>
+    <version>4.0.0.payara-p2</version>
 </dependency>
 ----
 [[ssl-impl]]
@@ -4290,16 +4266,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[stax2-api]]
-==== *stax2-api*
-**Version**: 4.2.1
+[[org.glassfish.jersey.core.jersey-common]]
+==== *org.glassfish.jersey.core.jersey-common*
+**Version**: 3.1.0.payara-p1
 
 [source,xml]
 ----
 <dependency>
-    <groupId>stax2 api</groupId>
-    <artifactId>stax2-api</artifactId>
-    <version>4.2.1</version>
+    <groupId>jersey-core-common</groupId>
+    <artifactId>org.glassfish.jersey.core.jersey-common</artifactId>
+    <version>3.1.0.payara-p1</version>
 </dependency>
 ----
 [[fish.payara.server.internal.web.gf-weld-connector]]
@@ -4338,15 +4314,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.1.0.payara-p1</version>
 </dependency>
 ----
-[[org.glassfish.jersey.core.jersey-common]]
-==== *org.glassfish.jersey.core.jersey-common*
+[[org.glassfish.jersey.containers.glassfish.]]
+==== *org.glassfish.jersey.containers.glassfish.*
 **Version**: 3.1.0.payara-p1
 
 [source,xml]
 ----
 <dependency>
-    <groupId>jersey-core-common</groupId>
-    <artifactId>org.glassfish.jersey.core.jersey-common</artifactId>
+    <groupId>jersey-gf-ejb</groupId>
+    <artifactId>org.glassfish.jersey.containers.glassfish.</artifactId>
     <version>3.1.0.payara-p1</version>
 </dependency>
 ----
@@ -4422,28 +4398,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[cluster-admin]]
-==== *cluster-admin*
-**Version**: 6.1.0
+[[stax2-api]]
+==== *stax2-api*
+**Version**: 4.2.1
 
 [source,xml]
 ----
 <dependency>
-    <groupId>fish.payara.server.internal.cluster</groupId>
-    <artifactId>cluster-admin</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.cluster.admin]]
-==== *fish.payara.server.internal.cluster.admin*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>cluster-admin</groupId>
-    <artifactId>fish.payara.server.internal.cluster.admin</artifactId>
-    <version>6.1.0</version>
+    <groupId>stax2 api</groupId>
+    <artifactId>stax2-api</artifactId>
+    <version>4.2.1</version>
 </dependency>
 ----
 [[fish.payara.server.core.security]]
@@ -4482,16 +4446,28 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[org.glassfish.metro.webservices-osgi]]
-==== *org.glassfish.metro.webservices-osgi*
-**Version**: 4.0.1
+[[console-reference-manual-plugin]]
+==== *console-reference-manual-plugin*
+**Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>metro web services runtime osgi bundle</groupId>
-    <artifactId>org.glassfish.metro.webservices-osgi</artifactId>
-    <version>4.0.1</version>
+    <groupId>fish.payara.server.internal.admingui</groupId>
+    <artifactId>console-reference-manual-plugin</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.internal.admingui.console-reference-manual-plugin]]
+==== *fish.payara.server.internal.admingui.console-reference-manual-plugin*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>admin console reference manual plugin</groupId>
+    <artifactId>fish.payara.server.internal.admingui.console-reference-manual-plugin</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[org.hibernate.validator.cdi]]
@@ -4506,6 +4482,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>8.0.0.final</version>
 </dependency>
 ----
+[[cluster-admin]]
+==== *cluster-admin*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.internal.cluster</groupId>
+    <artifactId>cluster-admin</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[org.igniterealtime.smack.java7]]
 ==== *org.igniterealtime.smack.java7*
 **Version**: 4.3.4
@@ -4516,6 +4504,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>smack-java7</groupId>
     <artifactId>org.igniterealtime.smack.java7</artifactId>
     <version>4.3.4</version>
+</dependency>
+----
+[[fish.payara.server.internal.cluster.admin]]
+==== *fish.payara.server.internal.cluster.admin*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>cluster-admin</groupId>
+    <artifactId>fish.payara.server.internal.cluster.admin</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[fish.payara.server.core.deployment.common]]
@@ -4542,18 +4542,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.14.1</version>
 </dependency>
 ----
-[[org.glassfish.tyrus.server]]
-==== *org.glassfish.tyrus.server*
-**Version**: 2.1.0.payara-p1
-
-[source,xml]
-----
-<dependency>
-    <groupId>tyrus server</groupId>
-    <artifactId>org.glassfish.tyrus.server</artifactId>
-    <version>2.1.0.payara-p1</version>
-</dependency>
-----
 [[org.osgi.util.function]]
 ==== *org.osgi.util.function*
 **Version**: 1.2.0
@@ -4564,6 +4552,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>org.osgi</groupId>
     <artifactId>org.osgi.util.function</artifactId>
     <version>1.2.0</version>
+</dependency>
+----
+[[org.glassfish.tyrus.server]]
+==== *org.glassfish.tyrus.server*
+**Version**: 2.1.0.payara-p1
+
+[source,xml]
+----
+<dependency>
+    <groupId>tyrus server</groupId>
+    <artifactId>org.glassfish.tyrus.server</artifactId>
+    <version>2.1.0.payara-p1</version>
 </dependency>
 ----
 [[org.osgi.util.function]]
@@ -4590,18 +4590,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.core.common.glassfish-mbeanserver]]
-==== *fish.payara.server.core.common.glassfish-mbeanserver*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>glassfish mbeanserver support</groupId>
-    <artifactId>fish.payara.server.core.common.glassfish-mbeanserver</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[monitoring-console-process]]
 ==== *monitoring-console-process*
 **Version**: 2.0.1
@@ -4614,6 +4602,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.0.1</version>
 </dependency>
 ----
+[[fish.payara.server.core.common.glassfish-mbeanserver]]
+==== *fish.payara.server.core.common.glassfish-mbeanserver*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>glassfish mbeanserver support</groupId>
+    <artifactId>fish.payara.server.core.common.glassfish-mbeanserver</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[fish.payara.monitoring-console.process]]
 ==== *fish.payara.monitoring-console.process*
 **Version**: 2.0.1
@@ -4624,30 +4624,6 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>monitoring-console-process</groupId>
     <artifactId>fish.payara.monitoring-console.process</artifactId>
     <version>2.0.1</version>
-</dependency>
-----
-[[console-reference-manual-plugin]]
-==== *console-reference-manual-plugin*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.internal.admingui</groupId>
-    <artifactId>console-reference-manual-plugin</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.admingui.console-reference-manual-plugin]]
-==== *fish.payara.server.internal.admingui.console-reference-manual-plugin*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>admin console reference manual plugin</groupId>
-    <artifactId>fish.payara.server.internal.admingui.console-reference-manual-plugin</artifactId>
-    <version>6.1.0</version>
 </dependency>
 ----
 [[healthcheck-checker]]
@@ -4674,30 +4650,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[grizzly-npn-osgi]]
-==== *grizzly-npn-osgi*
-**Version**: 2.0.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>org.glassfish.grizzly</groupId>
-    <artifactId>grizzly-npn-osgi</artifactId>
-    <version>2.0.0</version>
-</dependency>
-----
-[[org.glassfish.grizzly.npn-osgi]]
-==== *org.glassfish.grizzly.npn-osgi*
-**Version**: 2.0.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>grizzly-npn-osgi</groupId>
-    <artifactId>org.glassfish.grizzly.npn-osgi</artifactId>
-    <version>2.0.0</version>
-</dependency>
-----
 [[j-interop-repackaged]]
 ==== *j-interop-repackaged*
 **Version**: 6.1.0
@@ -4720,6 +4672,54 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>j-interop repackaged as a module</groupId>
     <artifactId>fish.payara.server.internal.packager.j-interop-repackaged</artifactId>
     <version>6.1.0</version>
+</dependency>
+----
+[[resources-runtime]]
+==== *resources-runtime*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.internal.resources</groupId>
+    <artifactId>resources-runtime</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[org.glassfish.metro.webservices-osgi]]
+==== *org.glassfish.metro.webservices-osgi*
+**Version**: 4.0.1
+
+[source,xml]
+----
+<dependency>
+    <groupId>metro web services runtime osgi bundle</groupId>
+    <artifactId>org.glassfish.metro.webservices-osgi</artifactId>
+    <version>4.0.1</version>
+</dependency>
+----
+[[grizzly-npn-osgi]]
+==== *grizzly-npn-osgi*
+**Version**: 2.0.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>org.glassfish.grizzly</groupId>
+    <artifactId>grizzly-npn-osgi</artifactId>
+    <version>2.0.0</version>
+</dependency>
+----
+[[org.glassfish.grizzly.npn-osgi]]
+==== *org.glassfish.grizzly.npn-osgi*
+**Version**: 2.0.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>grizzly-npn-osgi</groupId>
+    <artifactId>org.glassfish.grizzly.npn-osgi</artifactId>
+    <version>2.0.0</version>
 </dependency>
 ----
 [[jakarta.websocket-api]]
@@ -4746,18 +4746,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.internal.payara-modules.notification-core]]
-==== *fish.payara.server.internal.payara-modules.notification-core*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>notification core services</groupId>
-    <artifactId>fish.payara.server.internal.payara-modules.notification-core</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[glassfish-grizzly-extra-all]]
 ==== *glassfish-grizzly-extra-all*
 **Version**: 6.1.0
@@ -4770,27 +4758,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[resources-runtime]]
-==== *resources-runtime*
+[[fish.payara.server.internal.payara-modules.notification-core]]
+==== *fish.payara.server.internal.payara-modules.notification-core*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>fish.payara.server.internal.resources</groupId>
-    <artifactId>resources-runtime</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.resources.runtime]]
-==== *fish.payara.server.internal.resources.runtime*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>glassfish resources runtime</groupId>
-    <artifactId>fish.payara.server.internal.resources.runtime</artifactId>
+    <groupId>notification core services</groupId>
+    <artifactId>fish.payara.server.internal.payara-modules.notification-core</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -4806,6 +4782,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[fish.payara.server.internal.grizzly.glassfish-grizzly-extra-all]]
+==== *fish.payara.server.internal.grizzly.glassfish-grizzly-extra-all*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>glassfish grizzly extra jars combining</groupId>
+    <artifactId>fish.payara.server.internal.grizzly.glassfish-grizzly-extra-all</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[fish.payara.server.internal.payara-appserver-modules.rest-client-ssl]]
 ==== *fish.payara.server.internal.payara-appserver-modules.rest-client-ssl*
 **Version**: 6.1.0
@@ -4816,30 +4804,6 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>rest client ssl context</groupId>
     <artifactId>fish.payara.server.internal.payara-appserver-modules.rest-client-ssl</artifactId>
     <version>6.1.0</version>
-</dependency>
-----
-[[org.glassfish.jersey.containers.glassfish.]]
-==== *org.glassfish.jersey.containers.glassfish.*
-**Version**: 3.1.0.payara-p1
-
-[source,xml]
-----
-<dependency>
-    <groupId>jersey-gf-ejb</groupId>
-    <artifactId>org.glassfish.jersey.containers.glassfish.</artifactId>
-    <version>3.1.0.payara-p1</version>
-</dependency>
-----
-[[org.glassfish.jersey.ext.cdi.jersey-cdi1x-transaction]]
-==== *org.glassfish.jersey.ext.cdi.jersey-cdi1x-transaction*
-**Version**: 3.1.0.payara-p1
-
-[source,xml]
-----
-<dependency>
-    <groupId>jersey-ext-cdi1x-transaction</groupId>
-    <artifactId>org.glassfish.jersey.ext.cdi.jersey-cdi1x-transaction</artifactId>
-    <version>3.1.0.payara-p1</version>
 </dependency>
 ----
 [[org.glassfish.tyrus.client]]
@@ -4854,16 +4818,28 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.1.0.payara-p1</version>
 </dependency>
 ----
-[[fish.payara.server.internal.grizzly.glassfish-grizzly-extra-all]]
-==== *fish.payara.server.internal.grizzly.glassfish-grizzly-extra-all*
-**Version**: 6.1.0
+[[org.glassfish.jersey.ext.cdi.jersey-cdi1x-transaction]]
+==== *org.glassfish.jersey.ext.cdi.jersey-cdi1x-transaction*
+**Version**: 3.1.0.payara-p1
 
 [source,xml]
 ----
 <dependency>
-    <groupId>glassfish grizzly extra jars combining</groupId>
-    <artifactId>fish.payara.server.internal.grizzly.glassfish-grizzly-extra-all</artifactId>
-    <version>6.1.0</version>
+    <groupId>jersey-ext-cdi1x-transaction</groupId>
+    <artifactId>org.glassfish.jersey.ext.cdi.jersey-cdi1x-transaction</artifactId>
+    <version>3.1.0.payara-p1</version>
+</dependency>
+----
+[[io.projectreactor.]]
+==== *io.projectreactor.*
+**Version**: 3.4.4.release
+
+[source,xml]
+----
+<dependency>
+    <groupId>reactor-core</groupId>
+    <artifactId>io.projectreactor.</artifactId>
+    <version>3.4.4.release</version>
 </dependency>
 ----
 [[requesttracing-core]]
@@ -4914,16 +4890,28 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[io.projectreactor.]]
-==== *io.projectreactor.*
-**Version**: 3.4.4.release
+[[gf-restadmin-connector]]
+==== *gf-restadmin-connector*
+**Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>reactor-core</groupId>
-    <artifactId>io.projectreactor.</artifactId>
-    <version>3.4.4.release</version>
+    <groupId>fish.payara.server.internal.admin</groupId>
+    <artifactId>gf-restadmin-connector</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.core.grizzly.nucleus-grizzly-all]]
+==== *fish.payara.server.core.grizzly.nucleus-grizzly-all*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>nucleus grizzly jars combining</groupId>
+    <artifactId>fish.payara.server.core.grizzly.nucleus-grizzly-all</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[cluster-common]]
@@ -4986,39 +4974,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>1.5.0</version>
 </dependency>
 ----
-[[com.fasterxml.classmate]]
-==== *com.fasterxml.classmate*
-**Version**: 1.5.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>classmate</groupId>
-    <artifactId>com.fasterxml.classmate</artifactId>
-    <version>1.5.0</version>
-</dependency>
-----
-[[gf-restadmin-connector]]
-==== *gf-restadmin-connector*
+[[fish.payara.server.internal.resources.runtime]]
+==== *fish.payara.server.internal.resources.runtime*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>fish.payara.server.internal.admin</groupId>
-    <artifactId>gf-restadmin-connector</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.admin.gf-restadmin-connector]]
-==== *fish.payara.server.internal.admin.gf-restadmin-connector*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>connector for glassfish admin rest service</groupId>
-    <artifactId>fish.payara.server.internal.admin.gf-restadmin-connector</artifactId>
+    <groupId>glassfish resources runtime</groupId>
+    <artifactId>fish.payara.server.internal.resources.runtime</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -5043,6 +5007,18 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>admin-cli</groupId>
     <artifactId>fish.payara.server.core.admin.cli</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.internal.admin.gf-restadmin-connector]]
+==== *fish.payara.server.internal.admin.gf-restadmin-connector*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>connector for glassfish admin rest service</groupId>
+    <artifactId>fish.payara.server.internal.admin.gf-restadmin-connector</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -5082,18 +5058,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>1.1.1.payara-p1</version>
 </dependency>
 ----
-[[org.eclipse.parsson.jakarta.json]]
-==== *org.eclipse.parsson.jakarta.json*
-**Version**: 1.1.1.payara-p1
-
-[source,xml]
-----
-<dependency>
-    <groupId>json-p with parsson provider</groupId>
-    <artifactId>org.eclipse.parsson.jakarta.json</artifactId>
-    <version>1.1.1.payara-p1</version>
-</dependency>
-----
 [[datadog-notifier-core]]
 ==== *datadog-notifier-core*
 **Version**: 2.0-enterprise
@@ -5104,6 +5068,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>fish.payara.extensions.notifiers</groupId>
     <artifactId>datadog-notifier-core</artifactId>
     <version>2.0-enterprise</version>
+</dependency>
+----
+[[org.eclipse.parsson.jakarta.json]]
+==== *org.eclipse.parsson.jakarta.json*
+**Version**: 1.1.1.payara-p1
+
+[source,xml]
+----
+<dependency>
+    <groupId>json-p with parsson provider</groupId>
+    <artifactId>org.eclipse.parsson.jakarta.json</artifactId>
+    <version>1.1.1.payara-p1</version>
 </dependency>
 ----
 [[fish.payara.extensions.notifiers.datadog-notifier-core]]
@@ -5130,18 +5106,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>4.1.2</version>
 </dependency>
 ----
-[[org.glassfish.pfl.pfl-basic]]
-==== *org.glassfish.pfl.pfl-basic*
-**Version**: 4.1.2
-
-[source,xml]
-----
-<dependency>
-    <groupId>pfl basic</groupId>
-    <artifactId>org.glassfish.pfl.pfl-basic</artifactId>
-    <version>4.1.2</version>
-</dependency>
-----
 [[jakarta.enterprise.concurrent-api]]
 ==== *jakarta.enterprise.concurrent-api*
 **Version**: 3.0.1
@@ -5152,6 +5116,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>jakarta concurrency</groupId>
     <artifactId>jakarta.enterprise.concurrent-api</artifactId>
     <version>3.0.1</version>
+</dependency>
+----
+[[org.glassfish.pfl.pfl-basic]]
+==== *org.glassfish.pfl.pfl-basic*
+**Version**: 4.1.2
+
+[source,xml]
+----
+<dependency>
+    <groupId>pfl basic</groupId>
+    <artifactId>org.glassfish.pfl.pfl-basic</artifactId>
+    <version>4.1.2</version>
 </dependency>
 ----
 [[gf-load-balancer-connector]]
@@ -5178,18 +5154,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.internal.resources.javamail-runtime]]
-==== *fish.payara.server.internal.resources.javamail-runtime*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>glassfish javamail runtime</groupId>
-    <artifactId>fish.payara.server.internal.resources.javamail-runtime</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[appclient-server-core]]
 ==== *appclient-server-core*
 **Version**: 6.1.0
@@ -5199,6 +5163,18 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>fish.payara.server.internal.appclient.server</groupId>
     <artifactId>appclient-server-core</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.internal.resources.javamail-runtime]]
+==== *fish.payara.server.internal.resources.javamail-runtime*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>glassfish javamail runtime</groupId>
+    <artifactId>fish.payara.server.internal.resources.javamail-runtime</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -5226,6 +5202,30 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[nucleus-resources]]
+==== *nucleus-resources*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.core.resourcebase.resources</groupId>
+    <artifactId>nucleus-resources</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.core.resourcebase.resources.]]
+==== *fish.payara.server.core.resourcebase.resources.*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>nucleus.resources</groupId>
+    <artifactId>fish.payara.server.core.resourcebase.resources.</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[fish.payara.server.internal.webservices.jsr109-impl]]
 ==== *fish.payara.server.internal.webservices.jsr109-impl*
 **Version**: 6.1.0
@@ -5235,18 +5235,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>jsr-109 implementation to deploy metro</groupId>
     <artifactId>fish.payara.server.internal.webservices.jsr109-impl</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.core.grizzly.nucleus-grizzly-all]]
-==== *fish.payara.server.core.grizzly.nucleus-grizzly-all*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>nucleus grizzly jars combining</groupId>
-    <artifactId>fish.payara.server.core.grizzly.nucleus-grizzly-all</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -5274,16 +5262,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>4.0.1</version>
 </dependency>
 ----
-[[com.sun.istack.commons-runtime]]
-==== *com.sun.istack.commons-runtime*
-**Version**: 4.0.1
+[[com.fasterxml.classmate]]
+==== *com.fasterxml.classmate*
+**Version**: 1.5.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>istack common utility code runtime</groupId>
-    <artifactId>com.sun.istack.commons-runtime</artifactId>
-    <version>4.0.1</version>
+    <groupId>classmate</groupId>
+    <artifactId>com.fasterxml.classmate</artifactId>
+    <version>1.5.0</version>
 </dependency>
 ----
 [[fish.payara.deployment.transformer.deployment-transformer-impl]]
@@ -5310,28 +5298,28 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.1.0</version>
 </dependency>
 ----
-[[nucleus-resources]]
-==== *nucleus-resources*
-**Version**: 6.1.0
+[[org.glassfish.wasp.wasp]]
+==== *org.glassfish.wasp.wasp*
+**Version**: 3.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>fish.payara.server.core.resourcebase.resources</groupId>
-    <artifactId>nucleus-resources</artifactId>
-    <version>6.1.0</version>
+    <groupId>wasp jakarta server pages implementation 3.1.0</groupId>
+    <artifactId>org.glassfish.wasp.wasp</artifactId>
+    <version>3.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.core.resourcebase.resources.]]
-==== *fish.payara.server.core.resourcebase.resources.*
-**Version**: 6.1.0
+[[org.glassfish.jersey.ext.cdi.jersey-cdi1x-servlet]]
+==== *org.glassfish.jersey.ext.cdi.jersey-cdi1x-servlet*
+**Version**: 3.1.0.payara-p1
 
 [source,xml]
 ----
 <dependency>
-    <groupId>nucleus.resources</groupId>
-    <artifactId>fish.payara.server.core.resourcebase.resources.</artifactId>
-    <version>6.1.0</version>
+    <groupId>jersey-ext-cdi1x-servlet</groupId>
+    <artifactId>org.glassfish.jersey.ext.cdi.jersey-cdi1x-servlet</artifactId>
+    <version>3.1.0.payara-p1</version>
 </dependency>
 ----
 [[jakarta.ejb-api]]
@@ -5358,39 +5346,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[org.glassfish.jersey.ext.cdi.jersey-cdi1x-servlet]]
-==== *org.glassfish.jersey.ext.cdi.jersey-cdi1x-servlet*
-**Version**: 3.1.0.payara-p1
-
-[source,xml]
-----
-<dependency>
-    <groupId>jersey-ext-cdi1x-servlet</groupId>
-    <artifactId>org.glassfish.jersey.ext.cdi.jersey-cdi1x-servlet</artifactId>
-    <version>3.1.0.payara-p1</version>
-</dependency>
-----
-[[org.glassfish.wasp.wasp]]
-==== *org.glassfish.wasp.wasp*
-**Version**: 3.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>wasp jakarta server pages implementation 3.1.0</groupId>
-    <artifactId>org.glassfish.wasp.wasp</artifactId>
-    <version>3.1.0</version>
-</dependency>
-----
-[[jakarta-ee9-shim]]
-==== *jakarta-ee9-shim*
+[[fish.payara.server.core.security.services]]
+==== *fish.payara.server.core.security.services*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>fish.payara.server.internal.packager</groupId>
-    <artifactId>jakarta-ee9-shim</artifactId>
+    <groupId>security services and spi</groupId>
+    <artifactId>fish.payara.server.core.security.services</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -5406,6 +5370,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[jakarta-ee9-shim]]
+==== *jakarta-ee9-shim*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.internal.packager</groupId>
+    <artifactId>jakarta-ee9-shim</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[fish.payara.server.internal.packager.]]
 ==== *fish.payara.server.internal.packager.*
 **Version**: 6.1.0
@@ -5418,16 +5394,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.internal.admingui.console-jca-plugin]]
-==== *fish.payara.server.internal.admingui.console-jca-plugin*
-**Version**: 6.1.0
+[[com.sun.istack.commons-runtime]]
+==== *com.sun.istack.commons-runtime*
+**Version**: 4.0.1
 
 [source,xml]
 ----
 <dependency>
-    <groupId>admin console connectors plugin</groupId>
-    <artifactId>fish.payara.server.internal.admingui.console-jca-plugin</artifactId>
-    <version>6.1.0</version>
+    <groupId>istack common utility code runtime</groupId>
+    <artifactId>com.sun.istack.commons-runtime</artifactId>
+    <version>4.0.1</version>
 </dependency>
 ----
 [[healthcheck-cpool]]
@@ -5452,18 +5428,6 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>healthcheck connection pool</groupId>
     <artifactId>fish.payara.server.internal.payara-modules.healthcheck-cpool</artifactId>
     <version>6.1.0</version>
-</dependency>
-----
-[[jakarta.xml.bind-api]]
-==== *jakarta.xml.bind-api*
-**Version**: 4.0.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>jakarta xml binding api</groupId>
-    <artifactId>jakarta.xml.bind-api</artifactId>
-    <version>4.0.0</version>
 </dependency>
 ----
 [[phonehome-bootstrap]]
@@ -5502,6 +5466,30 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[fish.payara.server.internal.admingui.console-jca-plugin]]
+==== *fish.payara.server.internal.admingui.console-jca-plugin*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>admin console connectors plugin</groupId>
+    <artifactId>fish.payara.server.internal.admingui.console-jca-plugin</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[dol]]
+==== *dol*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.core.deployment</groupId>
+    <artifactId>dol</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[xmpp-notifier-console-plugin]]
 ==== *xmpp-notifier-console-plugin*
 **Version**: 2.0-enterprise
@@ -5526,18 +5514,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.0.0.enterprise</version>
 </dependency>
 ----
-[[dol]]
-==== *dol*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.core.deployment</groupId>
-    <artifactId>dol</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[container-common]]
 ==== *container-common*
 **Version**: 6.1.0
@@ -5547,18 +5523,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>fish.payara.server.core.common</groupId>
     <artifactId>container-common</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.core.deployment.dol]]
-==== *fish.payara.server.core.deployment.dol*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>deployment object library</groupId>
-    <artifactId>fish.payara.server.core.deployment.dol</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -5572,6 +5536,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>container common</groupId>
     <artifactId>fish.payara.server.core.common.container-common</artifactId>
     <version>6.1.0</version>
+</dependency>
+----
+[[com.fasterxml.jackson.core.jackson-core]]
+==== *com.fasterxml.jackson.core.jackson-core*
+**Version**: 2.14.1
+
+[source,xml]
+----
+<dependency>
+    <groupId>jackson-core</groupId>
+    <artifactId>com.fasterxml.jackson.core.jackson-core</artifactId>
+    <version>2.14.1</version>
 </dependency>
 ----
 [[osgi-cli-remote]]
@@ -5610,27 +5586,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[com.fasterxml.jackson.core.jackson-core]]
-==== *com.fasterxml.jackson.core.jackson-core*
-**Version**: 2.14.1
-
-[source,xml]
-----
-<dependency>
-    <groupId>jackson-core</groupId>
-    <artifactId>com.fasterxml.jackson.core.jackson-core</artifactId>
-    <version>2.14.1</version>
-</dependency>
-----
-[[fish.payara.server.internal.security.realm-stores]]
-==== *fish.payara.server.internal.security.realm-stores*
+[[fish.payara.server.core.deployment.dol]]
+==== *fish.payara.server.core.deployment.dol*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>realm identity stores</groupId>
-    <artifactId>fish.payara.server.internal.security.realm-stores</artifactId>
+    <groupId>deployment object library</groupId>
+    <artifactId>fish.payara.server.core.deployment.dol</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -5706,6 +5670,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>0.6.4</version>
 </dependency>
 ----
+[[jakarta.xml.bind-api]]
+==== *jakarta.xml.bind-api*
+**Version**: 4.0.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>jakarta xml binding api</groupId>
+    <artifactId>jakarta.xml.bind-api</artifactId>
+    <version>4.0.0</version>
+</dependency>
+----
 [[jdbc-config]]
 ==== *jdbc-config*
 **Version**: 6.1.0
@@ -5727,18 +5703,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>jdbc config module</groupId>
     <artifactId>fish.payara.server.internal.jdbc.config</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.core.security.services]]
-==== *fish.payara.server.core.security.services*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>security services and spi</groupId>
-    <artifactId>fish.payara.server.core.security.services</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -5790,6 +5754,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[fish.payara.server.internal.security.realm-stores]]
+==== *fish.payara.server.internal.security.realm-stores*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>realm identity stores</groupId>
+    <artifactId>fish.payara.server.internal.security.realm-stores</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[trilead-ssh2-repackaged]]
 ==== *trilead-ssh2-repackaged*
 **Version**: 6.1.0
@@ -5826,18 +5802,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>build-217-jenkins-16</version>
 </dependency>
 ----
-[[fish.payara.server.internal.packager.trilead-ssh2-repackaged]]
-==== *fish.payara.server.internal.packager.trilead-ssh2-repackaged*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>trilead-ssh2 repackaged as a module</groupId>
-    <artifactId>fish.payara.server.internal.packager.trilead-ssh2-repackaged</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[console-common]]
 ==== *console-common*
 **Version**: 6.1.0
@@ -5850,16 +5814,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[com.sun.xml.bind.jaxb-osgi]]
-==== *com.sun.xml.bind.jaxb-osgi*
-**Version**: 4.0.1
+[[fish.payara.server.internal.packager.trilead-ssh2-repackaged]]
+==== *fish.payara.server.internal.packager.trilead-ssh2-repackaged*
+**Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>jaxb osgi</groupId>
-    <artifactId>com.sun.xml.bind.jaxb-osgi</artifactId>
-    <version>4.0.1</version>
+    <groupId>trilead-ssh2 repackaged as a module</groupId>
+    <artifactId>fish.payara.server.internal.packager.trilead-ssh2-repackaged</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[fish.payara.server.internal.admingui.console-common]]
@@ -5874,6 +5838,54 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[okhttp]]
+==== *okhttp*
+**Version**: 3.14.9
+
+[source,xml]
+----
+<dependency>
+    <groupId>com.squareup.okhttp3</groupId>
+    <artifactId>okhttp</artifactId>
+    <version>3.14.9</version>
+</dependency>
+----
+[[okio]]
+==== *okio*
+**Version**: 1.17.2
+
+[source,xml]
+----
+<dependency>
+    <groupId>com.squareup.okio</groupId>
+    <artifactId>okio</artifactId>
+    <version>1.17.2</version>
+</dependency>
+----
+[[opentelemetry-repackaged]]
+==== *opentelemetry-repackaged*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.core.packager</groupId>
+    <artifactId>opentelemetry-repackaged</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[jctools-core]]
+==== *jctools-core*
+**Version**: 4.0.1
+
+[source,xml]
+----
+<dependency>
+    <groupId>org.jctools</groupId>
+    <artifactId>jctools-core</artifactId>
+    <version>4.0.1</version>
+</dependency>
+----
 [[ant]]
 ==== *ant*
 **Version**: 6.1.0
@@ -5886,16 +5898,28 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.extensions.notifiers.discord-notifier-core]]
-==== *fish.payara.extensions.notifiers.discord-notifier-core*
-**Version**: 2.0.0.enterprise
+[[fish.payara.server.internal.packager.ant]]
+==== *fish.payara.server.internal.packager.ant*
+**Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>discord notifier implementation</groupId>
-    <artifactId>fish.payara.extensions.notifiers.discord-notifier-core</artifactId>
-    <version>2.0.0.enterprise</version>
+    <groupId>ant repackaging</groupId>
+    <artifactId>fish.payara.server.internal.packager.ant</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.core.packager.opentelemetry-repackaged]]
+==== *fish.payara.server.core.packager.opentelemetry-repackaged*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>repackaged opentelemetry</groupId>
+    <artifactId>fish.payara.server.core.packager.opentelemetry-repackaged</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[hk2-config]]
@@ -5910,16 +5934,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.internal.packager.ant]]
-==== *fish.payara.server.internal.packager.ant*
-**Version**: 6.1.0
+[[fish.payara.extensions.notifiers.discord-notifier-core]]
+==== *fish.payara.extensions.notifiers.discord-notifier-core*
+**Version**: 2.0.0.enterprise
 
 [source,xml]
 ----
 <dependency>
-    <groupId>ant repackaging</groupId>
-    <artifactId>fish.payara.server.internal.packager.ant</artifactId>
-    <version>6.1.0</version>
+    <groupId>discord notifier implementation</groupId>
+    <artifactId>fish.payara.extensions.notifiers.discord-notifier-core</artifactId>
+    <version>2.0.0.enterprise</version>
 </dependency>
 ----
 [[fish.payara.server.core.hk2.config]]
@@ -5982,18 +6006,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[amx-core]]
-==== *amx-core*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.core.common</groupId>
-    <artifactId>amx-core</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[hk2-api]]
 ==== *hk2-api*
 **Version**: 3.0.1.payara-p3
@@ -6004,6 +6016,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>org.glassfish.hk2</groupId>
     <artifactId>hk2-api</artifactId>
     <version>3.0.1.payara-p3</version>
+</dependency>
+----
+[[amx-core]]
+==== *amx-core*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.core.common</groupId>
+    <artifactId>amx-core</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[org.glassfish.hk2.api]]
@@ -6018,6 +6042,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.0.1.payara-p3</version>
 </dependency>
 ----
+[[fish.payara.server.core.common.amx-core]]
+==== *fish.payara.server.core.common.amx-core*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>amx core</groupId>
+    <artifactId>fish.payara.server.core.common.amx-core</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[jakartaee-kernel]]
 ==== *jakartaee-kernel*
 **Version**: 6.1.0
@@ -6027,18 +6063,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>fish.payara.server.internal.core</groupId>
     <artifactId>jakartaee-kernel</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.core.jakartaee-kernel]]
-==== *fish.payara.server.internal.core.jakartaee-kernel*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>jakarta ee related distributions kernel classes</groupId>
-    <artifactId>fish.payara.server.internal.core.jakartaee-kernel</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -6054,6 +6078,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>0.3.4</version>
 </dependency>
 ----
+[[fish.payara.server.internal.core.jakartaee-kernel]]
+==== *fish.payara.server.internal.core.jakartaee-kernel*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>jakarta ee related distributions kernel classes</groupId>
+    <artifactId>fish.payara.server.internal.core.jakartaee-kernel</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[launcher]]
 ==== *launcher*
 **Version**: 6.1.0
@@ -6063,18 +6099,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>fish.payara.server.core.admin</groupId>
     <artifactId>launcher</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.core.admin.launcher]]
-==== *fish.payara.server.core.admin.launcher*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>admin-launcher</groupId>
-    <artifactId>fish.payara.server.core.admin.launcher</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -6102,6 +6126,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[fish.payara.server.core.admin.launcher]]
+==== *fish.payara.server.core.admin.launcher*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>admin-launcher</groupId>
+    <artifactId>fish.payara.server.core.admin.launcher</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[rest-service]]
 ==== *rest-service*
 **Version**: 6.1.0
@@ -6111,18 +6147,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>fish.payara.server.internal.admin</groupId>
     <artifactId>rest-service</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.admin.rest-service]]
-==== *fish.payara.server.internal.admin.rest-service*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>glassfish admin rest service</groupId>
-    <artifactId>fish.payara.server.internal.admin.rest-service</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -6147,6 +6171,18 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>fish.payara.server.core.security</groupId>
     <artifactId>jaspic.provider.framework</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.internal.admin.rest-service]]
+==== *fish.payara.server.internal.admin.rest-service*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>glassfish admin rest service</groupId>
+    <artifactId>fish.payara.server.internal.admin.rest-service</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -6195,30 +6231,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>fish.payara.server.core.web</groupId>
     <artifactId>gf-web-connector</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.core.common.amx-core]]
-==== *fish.payara.server.core.common.amx-core*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>amx core</groupId>
-    <artifactId>fish.payara.server.core.common.amx-core</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.payara-appserver-modules.cdi-auth-roles]]
-==== *fish.payara.server.internal.payara-appserver-modules.cdi-auth-roles*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>cdi auth: roles</groupId>
-    <artifactId>fish.payara.server.internal.payara-appserver-modules.cdi-auth-roles</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -6294,6 +6306,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[com.sun.xml.bind.jaxb-osgi]]
+==== *com.sun.xml.bind.jaxb-osgi*
+**Version**: 4.0.1
+
+[source,xml]
+----
+<dependency>
+    <groupId>jaxb osgi</groupId>
+    <artifactId>com.sun.xml.bind.jaxb-osgi</artifactId>
+    <version>4.0.1</version>
+</dependency>
+----
 [[org.glassfish.jersey.ext.jersey-entity-filtering]]
 ==== *org.glassfish.jersey.ext.jersey-entity-filtering*
 **Version**: 3.1.0.payara-p1
@@ -6306,18 +6330,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.1.0.payara-p1</version>
 </dependency>
 ----
-[[fish.payara.server.core.web.gf-web-connector]]
-==== *fish.payara.server.core.web.gf-web-connector*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>connector for glassfish web container</groupId>
-    <artifactId>fish.payara.server.core.web.gf-web-connector</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[org.igniterealtime.smack.core]]
 ==== *org.igniterealtime.smack.core*
 **Version**: 4.3.4
@@ -6328,6 +6340,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>smack-core</groupId>
     <artifactId>org.igniterealtime.smack.core</artifactId>
     <version>4.3.4</version>
+</dependency>
+----
+[[fish.payara.server.core.web.gf-web-connector]]
+==== *fish.payara.server.core.web.gf-web-connector*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>connector for glassfish web container</groupId>
+    <artifactId>fish.payara.server.core.web.gf-web-connector</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[jakarta.el-api]]
@@ -6366,54 +6390,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.29.2.ga</version>
 </dependency>
 ----
-[[snmp4j-repackaged]]
-==== *snmp4j-repackaged*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.core.packager</groupId>
-    <artifactId>snmp4j-repackaged</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[snmp4j]]
-==== *snmp4j*
-**Version**: 2.5.3
-
-[source,xml]
-----
-<dependency>
-    <groupId>org.snmp4j</groupId>
-    <artifactId>snmp4j</artifactId>
-    <version>2.5.3</version>
-</dependency>
-----
-[[glassfish-corba-omgapi]]
-==== *glassfish-corba-omgapi*
-**Version**: 4.2.4.payara-p2
-
-[source,xml]
-----
-<dependency>
-    <groupId>org.glassfish.corba</groupId>
-    <artifactId>glassfish-corba-omgapi</artifactId>
-    <version>4.2.4.payara-p2</version>
-</dependency>
-----
-[[fish.payara.server.core.packager.snmp4j-repackaged]]
-==== *fish.payara.server.core.packager.snmp4j-repackaged*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>snmp4j repackaged as a module</groupId>
-    <artifactId>fish.payara.server.core.packager.snmp4j-repackaged</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[api-exporter]]
 ==== *api-exporter*
 **Version**: 6.1.0
@@ -6450,15 +6426,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.1.13</version>
 </dependency>
 ----
-[[org.glassfish.corba.glassfish-corba-omgapi]]
-==== *org.glassfish.corba.glassfish-corba-omgapi*
+[[glassfish-corba-omgapi]]
+==== *glassfish-corba-omgapi*
 **Version**: 4.2.4.payara-p2
 
 [source,xml]
 ----
 <dependency>
-    <groupId>generated omg apis</groupId>
-    <artifactId>org.glassfish.corba.glassfish-corba-omgapi</artifactId>
+    <groupId>org.glassfish.corba</groupId>
+    <artifactId>glassfish-corba-omgapi</artifactId>
     <version>4.2.4.payara-p2</version>
 </dependency>
 ----
@@ -6474,6 +6450,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>3.1.13</version>
 </dependency>
 ----
+[[org.glassfish.corba.glassfish-corba-omgapi]]
+==== *org.glassfish.corba.glassfish-corba-omgapi*
+**Version**: 4.2.4.payara-p2
+
+[source,xml]
+----
+<dependency>
+    <groupId>generated omg apis</groupId>
+    <artifactId>org.glassfish.corba.glassfish-corba-omgapi</artifactId>
+    <version>4.2.4.payara-p2</version>
+</dependency>
+----
 [[fish.payara.server.core.transaction.internal-api]]
 ==== *fish.payara.server.core.transaction.internal-api*
 **Version**: 6.1.0
@@ -6484,90 +6472,6 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>transaction service internal api</groupId>
     <artifactId>fish.payara.server.core.transaction.internal-api</artifactId>
     <version>6.1.0</version>
-</dependency>
-----
-[[okhttp]]
-==== *okhttp*
-**Version**: 3.14.9
-
-[source,xml]
-----
-<dependency>
-    <groupId>com.squareup.okhttp3</groupId>
-    <artifactId>okhttp</artifactId>
-    <version>3.14.9</version>
-</dependency>
-----
-[[okio]]
-==== *okio*
-**Version**: 1.17.2
-
-[source,xml]
-----
-<dependency>
-    <groupId>com.squareup.okio</groupId>
-    <artifactId>okio</artifactId>
-    <version>1.17.2</version>
-</dependency>
-----
-[[opentelemetry-repackaged]]
-==== *opentelemetry-repackaged*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.core.packager</groupId>
-    <artifactId>opentelemetry-repackaged</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[jctools-core]]
-==== *jctools-core*
-**Version**: 4.0.1
-
-[source,xml]
-----
-<dependency>
-    <groupId>org.jctools</groupId>
-    <artifactId>jctools-core</artifactId>
-    <version>4.0.1</version>
-</dependency>
-----
-[[fish.payara.server.core.packager.opentelemetry-repackaged]]
-==== *fish.payara.server.core.packager.opentelemetry-repackaged*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>repackaged opentelemetry</groupId>
-    <artifactId>fish.payara.server.core.packager.opentelemetry-repackaged</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.admingui.cdieventbus-notifier-console-plugin]]
-==== *fish.payara.server.internal.admingui.cdieventbus-notifier-console-plugin*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>cdi event bus notifier console plugin</groupId>
-    <artifactId>fish.payara.server.internal.admingui.cdieventbus-notifier-console-plugin</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[com.fasterxml.jackson.dataformat.jackson-dataformat-yaml]]
-==== *com.fasterxml.jackson.dataformat.jackson-dataformat-yaml*
-**Version**: 2.14.1
-
-[source,xml]
-----
-<dependency>
-    <groupId>jackson-dataformat-yaml</groupId>
-    <artifactId>com.fasterxml.jackson.dataformat.jackson-dataformat-yaml</artifactId>
-    <version>2.14.1</version>
 </dependency>
 ----
 [[woodstox-core]]
@@ -6606,6 +6510,66 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2013.6.1</version>
 </dependency>
 ----
+[[snmp4j-repackaged]]
+==== *snmp4j-repackaged*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.core.packager</groupId>
+    <artifactId>snmp4j-repackaged</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[snmp4j]]
+==== *snmp4j*
+**Version**: 2.5.3
+
+[source,xml]
+----
+<dependency>
+    <groupId>org.snmp4j</groupId>
+    <artifactId>snmp4j</artifactId>
+    <version>2.5.3</version>
+</dependency>
+----
+[[fish.payara.server.core.packager.snmp4j-repackaged]]
+==== *fish.payara.server.core.packager.snmp4j-repackaged*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>snmp4j repackaged as a module</groupId>
+    <artifactId>fish.payara.server.core.packager.snmp4j-repackaged</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[com.fasterxml.woodstox.woodstox-core]]
+==== *com.fasterxml.woodstox.woodstox-core*
+**Version**: 6.4.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>woodstox</groupId>
+    <artifactId>com.fasterxml.woodstox.woodstox-core</artifactId>
+    <version>6.4.0</version>
+</dependency>
+----
+[[fish.payara.server.internal.admingui.cdieventbus-notifier-console-plugin]]
+==== *fish.payara.server.internal.admingui.cdieventbus-notifier-console-plugin*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>cdi event bus notifier console plugin</groupId>
+    <artifactId>fish.payara.server.internal.admingui.cdieventbus-notifier-console-plugin</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[fish.payara.server.internal.payara-appserver-modules.hazelcast-eclipselink-coordination]]
 ==== *fish.payara.server.internal.payara-appserver-modules.hazelcast-eclipselink-coordination*
 **Version**: 6.1.0
@@ -6615,6 +6579,30 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>hz eclipselink coordination</groupId>
     <artifactId>fish.payara.server.internal.payara-appserver-modules.hazelcast-eclipselink-coordination</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[com.fasterxml.jackson.dataformat.jackson-dataformat-yaml]]
+==== *com.fasterxml.jackson.dataformat.jackson-dataformat-yaml*
+**Version**: 2.14.1
+
+[source,xml]
+----
+<dependency>
+    <groupId>jackson-dataformat-yaml</groupId>
+    <artifactId>com.fasterxml.jackson.dataformat.jackson-dataformat-yaml</artifactId>
+    <version>2.14.1</version>
+</dependency>
+----
+[[asadmin-recorder]]
+==== *asadmin-recorder*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.internal.payara-modules</groupId>
+    <artifactId>asadmin-recorder</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -6630,6 +6618,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>4.2.4.payara-p2</version>
 </dependency>
 ----
+[[fish.payara.server.internal.payara-modules.asadmin-recorder]]
+==== *fish.payara.server.internal.payara-modules.asadmin-recorder*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>payara asadmin recorder</groupId>
+    <artifactId>fish.payara.server.internal.payara-modules.asadmin-recorder</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[org.glassfish.corba.rmic]]
 ==== *org.glassfish.corba.rmic*
 **Version**: 4.2.4.payara-p2
@@ -6640,30 +6640,6 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>rmic compiler</groupId>
     <artifactId>org.glassfish.corba.rmic</artifactId>
     <version>4.2.4.payara-p2</version>
-</dependency>
-----
-[[com.fasterxml.woodstox.woodstox-core]]
-==== *com.fasterxml.woodstox.woodstox-core*
-**Version**: 6.4.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>woodstox</groupId>
-    <artifactId>com.fasterxml.woodstox.woodstox-core</artifactId>
-    <version>6.4.0</version>
-</dependency>
-----
-[[asadmin-recorder]]
-==== *asadmin-recorder*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.internal.payara-modules</groupId>
-    <artifactId>asadmin-recorder</artifactId>
-    <version>6.1.0</version>
 </dependency>
 ----
 [[org.reactivestreams.]]
@@ -6678,15 +6654,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>1.0.3</version>
 </dependency>
 ----
-[[fish.payara.server.internal.payara-modules.asadmin-recorder]]
-==== *fish.payara.server.internal.payara-modules.asadmin-recorder*
+[[scattered-archive-api]]
+==== *scattered-archive-api*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>payara asadmin recorder</groupId>
-    <artifactId>fish.payara.server.internal.payara-modules.asadmin-recorder</artifactId>
+    <groupId>fish.payara.server.core.common</groupId>
+    <artifactId>scattered-archive-api</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -6702,18 +6678,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.1.0</version>
 </dependency>
 ----
-[[scattered-archive-api]]
-==== *scattered-archive-api*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.core.common</groupId>
-    <artifactId>scattered-archive-api</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[fish.payara.server.core.common.scattered-archive-api]]
 ==== *fish.payara.server.core.common.scattered-archive-api*
 **Version**: 6.1.0
@@ -6726,39 +6690,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.internal.resources.javamail-connector]]
-==== *fish.payara.server.internal.resources.javamail-connector*
+[[fish.payara.server.internal.admingui.console-payara-enterprise-branding-plugin]]
+==== *fish.payara.server.internal.admingui.console-payara-enterprise-branding-plugin*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>javamail connector</groupId>
-    <artifactId>fish.payara.server.internal.resources.javamail-connector</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[tiger-types]]
-==== *tiger-types*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.core.packager</groupId>
-    <artifactId>tiger-types</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.core.packager.tiger-types]]
-==== *fish.payara.server.core.packager.tiger-types*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>repackaged tiger-types</groupId>
-    <artifactId>fish.payara.server.core.packager.tiger-types</artifactId>
+    <groupId>admin console payara enterprise theme plugin</groupId>
+    <artifactId>fish.payara.server.internal.admingui.console-payara-enterprise-branding-plugin</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -6772,6 +6712,30 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>jakarta bean validation api</groupId>
     <artifactId>jakarta.validation.jakarta.validation-api</artifactId>
     <version>3.0.1</version>
+</dependency>
+----
+[[fish.payara.server.internal.payara-appserver-modules.cdi-auth-roles]]
+==== *fish.payara.server.internal.payara-appserver-modules.cdi-auth-roles*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>cdi auth: roles</groupId>
+    <artifactId>fish.payara.server.internal.payara-appserver-modules.cdi-auth-roles</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[org.glassfish.jakarta.security.enterprise]]
+==== *org.glassfish.jakarta.security.enterprise*
+**Version**: 3.0.1.payara-p1
+
+[source,xml]
+----
+<dependency>
+    <groupId>soteria jakarta security implementation 3.0.1.payara-p1</groupId>
+    <artifactId>org.glassfish.jakarta.security.enterprise</artifactId>
+    <version>3.0.1.payara-p1</version>
 </dependency>
 ----
 [[glassfish-corba-internal-api]]
@@ -6798,18 +6762,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>4.2.4.payara-p2</version>
 </dependency>
 ----
-[[org.glassfish.jakarta.security.enterprise]]
-==== *org.glassfish.jakarta.security.enterprise*
-**Version**: 3.0.1.payara-p1
-
-[source,xml]
-----
-<dependency>
-    <groupId>soteria jakarta security implementation 3.0.1.payara-p1</groupId>
-    <artifactId>org.glassfish.jakarta.security.enterprise</artifactId>
-    <version>3.0.1.payara-p1</version>
-</dependency>
-----
 [[opentracing-adapter]]
 ==== *opentracing-adapter*
 **Version**: 6.1.0
@@ -6834,40 +6786,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.internal.payara-appserver-modules.notification-jms-core]]
-==== *fish.payara.server.internal.payara-appserver-modules.notification-jms-core*
+[[fish.payara.server.internal.resources.javamail-connector]]
+==== *fish.payara.server.internal.resources.javamail-connector*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>jms notification implementation</groupId>
-    <artifactId>fish.payara.server.internal.payara-appserver-modules.notification-jms-core</artifactId>
+    <groupId>javamail connector</groupId>
+    <artifactId>fish.payara.server.internal.resources.javamail-connector</artifactId>
     <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.admingui.console-payara-enterprise-branding-plugin]]
-==== *fish.payara.server.internal.admingui.console-payara-enterprise-branding-plugin*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>admin console payara enterprise theme plugin</groupId>
-    <artifactId>fish.payara.server.internal.admingui.console-payara-enterprise-branding-plugin</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[jakarta.servlet.jsp-api]]
-==== *jakarta.servlet.jsp-api*
-**Version**: 3.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>jakarta server pages api</groupId>
-    <artifactId>jakarta.servlet.jsp-api</artifactId>
-    <version>3.1.0</version>
 </dependency>
 ----
 [[fish.payara.server.internal.admingui.console-ejb-lite-plugin]]
@@ -6879,30 +6807,6 @@ This section details all dependencies related to internal modules, extensions, p
 <dependency>
     <groupId>admin console ejb local (lite) plugin</groupId>
     <artifactId>fish.payara.server.internal.admingui.console-ejb-lite-plugin</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.ejb.ejb-container]]
-==== *fish.payara.server.internal.ejb.ejb-container*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>glassfish core ejb container implementation</groupId>
-    <artifactId>fish.payara.server.internal.ejb.ejb-container</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.core.ejb.internal-api]]
-==== *fish.payara.server.core.ejb.internal-api*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>ejb container internal api</groupId>
-    <artifactId>fish.payara.server.core.ejb.internal-api</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -6930,6 +6834,54 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[fish.payara.server.internal.ejb.ejb-container]]
+==== *fish.payara.server.internal.ejb.ejb-container*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>glassfish core ejb container implementation</groupId>
+    <artifactId>fish.payara.server.internal.ejb.ejb-container</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.internal.payara-appserver-modules.notification-jms-core]]
+==== *fish.payara.server.internal.payara-appserver-modules.notification-jms-core*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>jms notification implementation</groupId>
+    <artifactId>fish.payara.server.internal.payara-appserver-modules.notification-jms-core</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[payara-api]]
+==== *payara-api*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.api</groupId>
+    <artifactId>payara-api</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.api.payara-api]]
+==== *fish.payara.api.payara-api*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>payara-api</groupId>
+    <artifactId>fish.payara.api.payara-api</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[backup]]
 ==== *backup*
 **Version**: 6.1.0
@@ -6942,28 +6894,28 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[glassfish-corba-orb]]
-==== *glassfish-corba-orb*
-**Version**: 4.2.4.payara-p2
+[[fish.payara.server.internal.admin.backup]]
+==== *fish.payara.server.internal.admin.backup*
+**Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>org.glassfish.corba</groupId>
-    <artifactId>glassfish-corba-orb</artifactId>
-    <version>4.2.4.payara-p2</version>
+    <groupId>backup restore classes</groupId>
+    <artifactId>fish.payara.server.internal.admin.backup</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
-[[org.glassfish.corba.glassfish-corba-orb]]
-==== *org.glassfish.corba.glassfish-corba-orb*
-**Version**: 4.2.4.payara-p2
+[[fish.payara.server.core.ejb.internal-api]]
+==== *fish.payara.server.core.ejb.internal-api*
+**Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>glassfish corba orb</groupId>
-    <artifactId>org.glassfish.corba.glassfish-corba-orb</artifactId>
-    <version>4.2.4.payara-p2</version>
+    <groupId>ejb container internal api</groupId>
+    <artifactId>fish.payara.server.core.ejb.internal-api</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
 [[fish.payara.server.internal.persistence.cmp.enhancer]]
@@ -7014,16 +6966,16 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.internal.admin.backup]]
-==== *fish.payara.server.internal.admin.backup*
-**Version**: 6.1.0
+[[jakarta.servlet.jsp-api]]
+==== *jakarta.servlet.jsp-api*
+**Version**: 3.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>backup restore classes</groupId>
-    <artifactId>fish.payara.server.internal.admin.backup</artifactId>
-    <version>6.1.0</version>
+    <groupId>jakarta server pages api</groupId>
+    <artifactId>jakarta.servlet.jsp-api</artifactId>
+    <version>3.1.0</version>
 </dependency>
 ----
 [[fish.payara.server.internal.web.weld-integration-fragment]]
@@ -7062,27 +7014,51 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.1.0.payara-p1</version>
 </dependency>
 ----
-[[payara-api]]
-==== *payara-api*
+[[glassfish-corba-orb]]
+==== *glassfish-corba-orb*
+**Version**: 4.2.4.payara-p2
+
+[source,xml]
+----
+<dependency>
+    <groupId>org.glassfish.corba</groupId>
+    <artifactId>glassfish-corba-orb</artifactId>
+    <version>4.2.4.payara-p2</version>
+</dependency>
+----
+[[org.glassfish.corba.glassfish-corba-orb]]
+==== *org.glassfish.corba.glassfish-corba-orb*
+**Version**: 4.2.4.payara-p2
+
+[source,xml]
+----
+<dependency>
+    <groupId>glassfish corba orb</groupId>
+    <artifactId>org.glassfish.corba.glassfish-corba-orb</artifactId>
+    <version>4.2.4.payara-p2</version>
+</dependency>
+----
+[[tiger-types]]
+==== *tiger-types*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>fish.payara.api</groupId>
-    <artifactId>payara-api</artifactId>
+    <groupId>fish.payara.server.core.packager</groupId>
+    <artifactId>tiger-types</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.api.payara-api]]
-==== *fish.payara.api.payara-api*
+[[fish.payara.server.core.packager.tiger-types]]
+==== *fish.payara.server.core.packager.tiger-types*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>payara-api</groupId>
-    <artifactId>fish.payara.api.payara-api</artifactId>
+    <groupId>repackaged tiger-types</groupId>
+    <artifactId>fish.payara.server.core.packager.tiger-types</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -7134,6 +7110,30 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.1.0</version>
 </dependency>
 ----
+[[gf-client-module]]
+==== *gf-client-module*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.appclient</groupId>
+    <artifactId>gf-client-module</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
+[[fish.payara.server.appclient.gf-client-module]]
+==== *fish.payara.server.appclient.gf-client-module*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>client osgi module (including acc)</groupId>
+    <artifactId>fish.payara.server.appclient.gf-client-module</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[xmpp-notifier-core]]
 ==== *xmpp-notifier-core*
 **Version**: 2.0-enterprise
@@ -7158,15 +7158,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.0.0.enterprise</version>
 </dependency>
 ----
-[[gf-client-module]]
-==== *gf-client-module*
+[[fish.payara.server.internal.admingui.console-concurrent-plugin]]
+==== *fish.payara.server.internal.admingui.console-concurrent-plugin*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>fish.payara.server.appclient</groupId>
-    <artifactId>gf-client-module</artifactId>
+    <groupId>admin console concurrent plugin</groupId>
+    <artifactId>fish.payara.server.internal.admingui.console-concurrent-plugin</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -7182,27 +7182,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.appclient.gf-client-module]]
-==== *fish.payara.server.appclient.gf-client-module*
+[[flashlight-framework]]
+==== *flashlight-framework*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>client osgi module (including acc)</groupId>
-    <artifactId>fish.payara.server.appclient.gf-client-module</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[fish.payara.server.internal.admingui.console-concurrent-plugin]]
-==== *fish.payara.server.internal.admingui.console-concurrent-plugin*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>admin console concurrent plugin</groupId>
-    <artifactId>fish.payara.server.internal.admingui.console-concurrent-plugin</artifactId>
+    <groupId>fish.payara.server.core.flashlight</groupId>
+    <artifactId>flashlight-framework</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -7218,15 +7206,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>1.0.0</version>
 </dependency>
 ----
-[[flashlight-framework]]
-==== *flashlight-framework*
+[[fish.payara.server.core.flashlight.framework]]
+==== *fish.payara.server.core.flashlight.framework*
 **Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>fish.payara.server.core.flashlight</groupId>
-    <artifactId>flashlight-framework</artifactId>
+    <groupId>flashlight-framework</groupId>
+    <artifactId>fish.payara.server.core.flashlight.framework</artifactId>
     <version>6.1.0</version>
 </dependency>
 ----
@@ -7254,18 +7242,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.core.flashlight.framework]]
-==== *fish.payara.server.core.flashlight.framework*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>flashlight-framework</groupId>
-    <artifactId>fish.payara.server.core.flashlight.framework</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[fish.payara.server.internal.admingui.jms-notifier-console-plugin]]
 ==== *fish.payara.server.internal.admingui.jms-notifier-console-plugin*
 **Version**: 6.1.0
@@ -7276,6 +7252,18 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>jms notifier console plugin</groupId>
     <artifactId>fish.payara.server.internal.admingui.jms-notifier-console-plugin</artifactId>
     <version>6.1.0</version>
+</dependency>
+----
+[[org.igniterealtime.smack.extensions]]
+==== *org.igniterealtime.smack.extensions*
+**Version**: 4.3.4
+
+[source,xml]
+----
+<dependency>
+    <groupId>smack-extensions</groupId>
+    <artifactId>org.igniterealtime.smack.extensions</artifactId>
+    <version>4.3.4</version>
 </dependency>
 ----
 [[fish.payara.server.internal.payara-modules.notification-cdi-eventbus-core]]
@@ -7312,18 +7300,6 @@ This section details all dependencies related to internal modules, extensions, p
     <groupId>cdi language model</groupId>
     <artifactId>jakarta.enterprise.lang-model</artifactId>
     <version>4.0.1</version>
-</dependency>
-----
-[[org.igniterealtime.smack.extensions]]
-==== *org.igniterealtime.smack.extensions*
-**Version**: 4.3.4
-
-[source,xml]
-----
-<dependency>
-    <groupId>smack-extensions</groupId>
-    <artifactId>org.igniterealtime.smack.extensions</artifactId>
-    <version>4.3.4</version>
 </dependency>
 ----
 [[org.glassfish.metro.webservices-api-osgi]]
@@ -7446,30 +7422,6 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
-[[fish.payara.server.core.common.glassfish-api]]
-==== *fish.payara.server.core.common.glassfish-api*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>public apis of glassfish</groupId>
-    <artifactId>fish.payara.server.core.common.glassfish-api</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
-[[microprofile-common]]
-==== *microprofile-common*
-**Version**: 6.1.0
-
-[source,xml]
-----
-<dependency>
-    <groupId>fish.payara.server.internal.payara-appserver-modules</groupId>
-    <artifactId>microprofile-common</artifactId>
-    <version>6.1.0</version>
-</dependency>
-----
 [[everit-json-schema]]
 ==== *everit-json-schema*
 **Version**: 1.14.1
@@ -7542,6 +7494,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>2.3</version>
 </dependency>
 ----
+[[microprofile-common]]
+==== *microprofile-common*
+**Version**: 6.1.0
+
+[source,xml]
+----
+<dependency>
+    <groupId>fish.payara.server.internal.payara-appserver-modules</groupId>
+    <artifactId>microprofile-common</artifactId>
+    <version>6.1.0</version>
+</dependency>
+----
 [[web-embed-api]]
 ==== *web-embed-api*
 **Version**: 6.1.0
@@ -7566,6 +7530,18 @@ This section details all dependencies related to internal modules, extensions, p
     <version>6.1.0</version>
 </dependency>
 ----
+[[com.hazelcast]]
+==== *com.hazelcast*
+**Version**: 5.2.2
+
+[source,xml]
+----
+<dependency>
+    <groupId>hazelcast(core)</groupId>
+    <artifactId>com.hazelcast</artifactId>
+    <version>5.2.2</version>
+</dependency>
+----
 [[org.jboss.weld.osgi-bundle]]
 ==== *org.jboss.weld.osgi-bundle*
 **Version**: 5.0.1.final
@@ -7578,15 +7554,15 @@ This section details all dependencies related to internal modules, extensions, p
     <version>5.0.1.final</version>
 </dependency>
 ----
-[[com.hazelcast]]
-==== *com.hazelcast*
-**Version**: 5.2.2
+[[fish.payara.server.core.common.glassfish-api]]
+==== *fish.payara.server.core.common.glassfish-api*
+**Version**: 6.1.0
 
 [source,xml]
 ----
 <dependency>
-    <groupId>hazelcast(core)</groupId>
-    <artifactId>com.hazelcast</artifactId>
-    <version>5.2.2</version>
+    <groupId>public apis of glassfish</groupId>
+    <artifactId>fish.payara.server.core.common.glassfish-api</artifactId>
+    <version>6.1.0</version>
 </dependency>
 ----
